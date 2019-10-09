@@ -1,0 +1,153 @@
+#jCopyInput{height:0px;position:fixed;top:-100px;}
+#toastEle{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    padding: 8px 10px;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 5px;
+    color: #fff;
+    z-index: 100;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+
+[class^='ei-']{
+    font-size: 14px;
+}
+#iconList:after{
+    clear:both;
+}
+#iconList:before, #iconList:after{
+    display: table;
+    content: " ";
+}
+#iconsExample {}
+
+.input-w{
+    margin: 10px 0;
+}
+.ei-input{
+    width: 270px;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    background-color:#fff;
+    padding-left: 5px;
+    height: 30px;
+    color: #222;
+    outline: none;
+    border-radius: 2px;
+    transition: border-color .3s ease;
+    -webkit-transition: border-color .3s ease;
+    -o-transition: border-color .3s ease;
+    -moz-transition: border-color .3s ease;
+    -ms-transition: border-color .3s ease;
+}
+.ei-input[readonly]{
+    background-color: #efefef;
+    cursor: no-drop;
+}
+.ei-input:focus{border: 1px solid #777;}
+.ei-btn{
+    background-color: #1da1ff;
+    color: #fff;
+    height: 35px;
+    padding: 0 10px;
+    line-height: 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    font-family: "Microsoft Yahei";
+    transition: background-color .3s ease;
+    -webkit-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -ms-transition: background-color .3s ease;
+}
+.ei-btn:hover{background-color: #5fbcff}
+.ei-btn:active{background-color: #70c4ff}
+
+#iconsExample ul {
+    padding: 5px;
+}
+
+#iconsExample ul li {
+    width: 140px;
+    list-style: none;
+    float: left;
+    font-size: 12px;
+    background-color: transparent;
+    transform: scale(1);
+    cursor: pointer;
+    position: relative;
+    border-radius: 3px;
+    transition: all .3s;
+    margin-top: 7px;
+}
+
+#iconsExample ul li:hover {
+    background-color: #ddd;
+    transform: scale(1.5);
+    z-index: 2;
+}
+
+#iconsExample ul li.i-list {
+    width: 30px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #bbb;
+}
+
+#iconsExample ul li.i-list.i-big {
+    width: 75px;
+}
+
+#iconsExample ul li.i-list span {
+    display: none;
+}
+
+#iconShow {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icon-middle {
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.icon-large {
+    margin-left: 20px;
+    font-size: 70px;
+}
+
+.icon-slarge {
+    margin-left: 20px;
+    font-size: 100px;
+}
+
+.icon-c {
+    margin-left: 20px
+}
+
+
+.list-change {
+    position: absolute;
+}
+#iconList.fullMode li{
+    width: auto;
+    margin-right: 10px;
+}
+#iconList.fullMode li i{
+    font-size: 20px;
+}
+#iconList.fullMode li span{
+   display: none; 
+}
+.hide{
+    display: none;
+}

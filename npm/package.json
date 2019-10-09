@@ -1,0 +1,39 @@
+{
+  "_from": "easy-icon",
+  "_id": "easy-icon@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-XRgcmnqL/7r3quTkBn6lwDIssz2U4NQwaGnCC5ra4HDz/Q1GncB7rqbHyI0lfq72jHYqVMu8c8KPY1XnFPIAAg==",
+  "_location": "/easy-icon",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "easy-icon",
+    "name": "easy-icon",
+    "escapedName": "easy-icon",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/easy-icon/-/easy-icon-1.0.1.tgz",
+  "_shasum": "7703a9b9a91f3750d3e9c3002eede5205734f22b",
+  "_spec": "easy-icon",
+  "_where": "F:\\theajack\\github\\cnchar",
+  "author": {
+    "name": "theajack"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "easy-icon",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "easy-icon",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}
