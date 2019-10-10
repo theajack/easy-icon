@@ -28,12 +28,22 @@
   },
   "bundleDependencies": false,
   "deprecated": false,
-  "description": "easy-icon",
+  "description": "Easy-ICON is A Easy to Use Web Font ICON lib",
   "license": "MIT",
   "main": "index.js",
   "name": "easy-icon",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.1"
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/theajack/easy-icon"
+  },
+  "keywords": [
+      "font icon lib",
+      "web font",
+      "web icon",
+      "Font-Awesome"
+  ],
+  "version": "1.0.2"
 }
