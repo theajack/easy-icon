@@ -59,13 +59,17 @@
         id('searchInput').oninput = function(){
             var value = this.value;
             var list = id('iconList').children;
+            var has = false;
             for(var i=0;i<list.length;i++){
                 if(list[i].children[0].className.substring(3).indexOf(value)!==-1){
                     list[i].style.display = 'inline';
+                    has = true;
                 }else{
                     list[i].style.display = 'none';
                 }
             }
+            id('no-icon').style.display = has?'none':'block';
+            id('iconList').style.display = has?'block':'none';
         }
     }
     function getUrlParam() {

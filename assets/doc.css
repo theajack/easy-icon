@@ -1,0 +1,39 @@
+.demo-code{
+    font-family: Consolas, 'Courier New', monospace;
+    max-width: 1000px;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 5px;
+    overflow-x: auto;
+    color: #fff;
+}
+
+#spinBlock,#sizeBlock,#useBlock{
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.doc-title{
+    text-align: center;
+    color: #222;
+    font-size: 25px;
+    font-weight: bold;
+}
+.doc-title-s{
+    color: #222;
+    font-size: 20px;
+    font-weight: bold;
+}
+.doc-text{
+    color: #222;
+    font-size: 18px;
+    margin: 5px 0;
+}
+.red{
+    color: #f44;
+    background-color: #eee;
+    padding: 0 2px;
+    border-radius: 2px;
+}

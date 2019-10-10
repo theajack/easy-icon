@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Easy-ICON - A Simple Web Font ICON lib</title>
-    <meta name="keywords" content="font icon lib,js lib,web font">
-    <meta name="description" content="Easy-ICON - A Simple Web Font ICON lib">
+    <title>Easy-ICON - 一个简单易用的icon字体库</title>
+    <meta name="keywords" content="字体图标库,js字体图标库,web图标">
+    <meta name="description" content="Easy-ICON - 一个简单易用的icon字体库">
     <link rel="stylesheet" href="./dist/easy-icon.min.css">
     <link rel="stylesheet" href="./assets/index.css">
     <link rel="stylesheet" href="./assets/navi.css">
@@ -22,13 +22,13 @@
             <a class='link-item' href='https://github.com/theajack/easy-icon' target="blank"><img src="./assets/images/logo.png" alt=""></a>
         </div>
         <div class='navi-w'>
-            <span class='navi-item active' navi-target='iconShow'>Icon</span>
-            <span class='navi-item' navi-target='useBlock'>Use</span>
-            <span class='navi-item' navi-target='spinBlock'>Spin</span>
-            <span class='navi-item' navi-target='sizeBlock'>Size</span>
+            <span class='navi-item active' navi-target='iconShow'>图标</span>
+            <span class='navi-item' navi-target='useBlock'>使用</span>
+            <span class='navi-item' navi-target='spinBlock'>旋转</span>
+            <span class='navi-item' navi-target='sizeBlock'>尺寸</span>
         </div>
         <div class='link-w'>
-            <a class='link-item' href='https://www.theajack.com/easy-icon/index_cn.html' target="blank">中文</a>
+            <a class='link-item' href='https://www.theajack.com/easy-icon' target="blank">EN</a>
             <a class='link-item' href='https://github.com/theajack/easy-icon' target="blank"><i class="ei-github"></i></a>
         </div>
     </div>
@@ -42,15 +42,15 @@
             </span>
             <div class='input-w'>
                 <input type="text" id='fullHtmlInput' readonly="" class="ei-input">
-                <button class="ei-btn code-copy" title="Copy" onclick="copyInputValue('fullHtmlInput')"><i
+                <button class="ei-btn code-copy" title="复制" onclick="copyInputValue('fullHtmlInput')"><i
                         class="ei-copy"></i></button>
             </div>
             <div class='input-w'>
                 <input type="text" id='searchInput' class="ei-input" placeholder="Search icon.">
-                <button class="ei-btn code-copy" title="Switch Mode" onclick="toggleMode(this)"><i class="ei-th"></i></button>
+                <button class="ei-btn code-copy" title="切换模式" onclick="toggleMode(this)"><i class="ei-th"></i></button>
             </div>
         </div>
-        <div id='no-icon'>Sorry! No results found.</div>
+        <div id='no-icon'>没有找到查询结果</div>
         <ul class="clearfix" id="iconList">
             <li><i class="ei-resize"></i> <span>resize</span></li>
             <li><i class="ei-expand-full"></i> <span>expand-full</span></li>
@@ -398,31 +398,31 @@
             <li class="i-big"><i class="ei-zsite-pro"></i> <span>zsite-pro</span></li>
         </ul>
     </div>
-    <div id="no-icon" style="display: block;">Easy-ICON is powered by Font-Awesome, thanks a lot!</div>
+    <div id="no-icon" style="display: block;">Easy-ICON 使用 Font-Awesome 图标库, 对原作者做出的贡献表示感谢!</div>
     <div id='useBlock'>
-        <div class="doc-title">How To Use?</div>
-        <div class='doc-title-s'>1.Install</div>
-        <div class='doc-text'>a.Use css file reference:(Recommended to download to local and then reference local files)</div>
+        <div class="doc-title">如何使用?</div>
+        <div class='doc-title-s'>1.安装</div>
+        <div class='doc-text'>a.使用css文件引用:(推荐下载到本地然后引用本地文件)</div>
         <pre class='demo-code'>&lt;link rel="stylesheet" href="https://www.theajack.com/easy-icon/dist/easy-icon.min.css"></pre> 
-        <div class='doc-text'>b.Install using npm:</div>
+        <div class='doc-text'>b.使用npm方式安装:</div>
         <pre class='demo-code'>npm i easy-icon</pre>
-        <div class='doc-text'>You only need to import once:</div>
+        <div class='doc-text'>您只需要引用一次即可:</div>
         <pre class='demo-code'>import 'easy-icon'</pre>
-        <div class='doc-title-s'>2.Useage</div>
-        <div class='doc-text'>It's very easy to use, you just need to insert the tag anywhere:</div>
+        <div class='doc-title-s'>2.使用</div>
+        <div class='doc-text'>Easy ICON使用起来十分简单，您只需要在您想要使用的地方插入一个如下的标签即可:</div>
         <pre class='demo-code'>&lt;i class="ei-smile">&lt;/i></pre>
-        <div class='doc-text'>Then you will see a lovely icon like this: <i class="ei-smile"></i></div>
+        <div class='doc-text'>然后您就可以看到一个可爱的图标: <i class="ei-smile"></i></div>
     </div>
     <div id='spinBlock'>
-        <div class="doc-title">Spin the icon!</div>
-        <div class='doc-text'>You can add the <span class="red">ei-spin</span> class to spin the icon:</div>
+        <div class="doc-title">让图标旋转!</div>
+        <div class='doc-text'>您可以通过添加 <span class="red">ei-spin</span> 类来使图标旋转:</div>
         <pre class='demo-code'>&lt;i class="ei-spinner-snake ei-spin">&lt;/i></pre>
-        <div class='doc-text'>The effect is like this: <i class="ei-spinner-snake ei-spin"></i></div>
+        <div class='doc-text'>效果: <i class="ei-spinner-snake ei-spin"></i></div>
     </div>
     <div id='sizeBlock'>
-        <div class="doc-title">Choose size</div>
+        <div class="doc-title">选择尺寸</div>
         <div class='doc-text'>
-            Easy-icon comes in eight sizes to choose from, from small to large:
+            Easy ICON 内置了八种不同大小的尺寸，从小到大依次为:
             <span class="red">xs</span>,<span class="red">s</span>,<span class="red">l</span>,<span class="red">xl</span>,<span class="red">2x</span>,<span class="red">3x</span>,<span class="red">4x</span>,<span class="red">5x</span>
         </div>
 <pre class='demo-code'>&lt;i class="ei-smile ei-xs">&lt;/i>
@@ -434,14 +434,14 @@
 &lt;i class="ei-smile ei-4x">&lt;/i>
 &lt;i class="ei-smile ei-5x">&lt;/i>
 </pre>
-        <div class='doc-text'>The effect is like this: <i class="ei-smile ei-xs"></i><i class="ei-smile ei-s"></i><i class="ei-smile ei-l"></i><i class="ei-smile ei-xl"></i><i class="ei-smile ei-2x"></i><i class="ei-smile ei-3x"></i><i class="ei-smile ei-4x"></i><i class="ei-smile ei-5x"></i></div>
-        <div class='doc-text'>Of course, you can use css to customize any style.</div>
+        <div class='doc-text'>效果: <i class="ei-smile ei-xs"></i><i class="ei-smile ei-s"></i><i class="ei-smile ei-l"></i><i class="ei-smile ei-xl"></i><i class="ei-smile ei-2x"></i><i class="ei-smile ei-3x"></i><i class="ei-smile ei-4x"></i><i class="ei-smile ei-5x"></i></div>
+        <div class='doc-text'>当然，您可以使用任何自定义css样式来覆盖默认的样式.</div>
     </div>
     <div id="footer" class="bg-black text-white part">
         <div id="footerLink">
             <a href='https://github.com/theajack' target="blank"><span class="link">GitHub</span></a>
             <span class="split-icon">|</span>
-            <a href='http://weibo.com/p/1005055304330572/home?from=page_100505&amp;mod=TAB&amp;is_all=1' target="blank"><span class="link">Sina Micro-blog</span></a>
+            <a href='http://weibo.com/p/1005055304330572/home?from=page_100505&amp;mod=TAB&amp;is_all=1' target="blank"><span class="link">新浪微博</span></a>
             <span class="split-icon">|</span>
 
             Email:theajack@qq.com
