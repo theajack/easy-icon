@@ -1,6 +1,6 @@
 .demo-code{
     font-family: Consolas, 'Courier New', monospace;
-    max-width: 1000px;
+    /* max-width: 1000px; */
     background-color: #222;
     padding: 10px;
     border-radius: 3px;
