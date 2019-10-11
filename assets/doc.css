@@ -8,13 +8,11 @@
     overflow-x: auto;
     color: #fff;
 }
-
 #spinBlock,#sizeBlock,#useBlock{
     padding: 15px;
     border-bottom: 1px solid #eee;
     position: relative;
 }
-
 .doc-title{
     text-align: center;
     color: #222;
