@@ -3,7 +3,7 @@
 #### [theajack](https://www.theajack.com/)
 ### A Easy to Use Web Font ICON lib
 
-**[Online trial](https://www.theajack.com/easy-icon/) | [中文](https://github.com/theajack/easy-icon/blob/master/README_CN.md)**
+**[Online trial](https://theajack.gitee.io/easy-icon/) | [中文](https://github.com/theajack/easy-icon/blob/master/README_CN.md)**
 
 ----
 
@@ -25,7 +25,7 @@ Easy-ICON is powered by Font-Awesome, thanks a lot!
 
 #### 2.1 Use css file reference：(Recommended to download to local and then reference local files)
 ```html
-<link rel="stylesheet" href="https://www.theajack.com/easy-icon/dist/easy-icon.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon.min.css">
 ```
 
 #### 2.2 OR Use npm:
@@ -48,7 +48,7 @@ It's very easy to use, you just need to insert the tag anywhere:
 <i class="ei-spmile"></i>
 ```
 
-[See which icons you can use](https://www.theajack.com/easy-icon/)
+[See which icons you can use](https://theajack.gitee.io/easy-icon/)
 
 ![Easy-ICON](https://github.com/theajack/easy-icon/blob/master/assets/images/icons.png?raw=true)
 
