@@ -3,7 +3,7 @@
 #### [theajack](https://www.theajack.com/)
 ### A Easy to Use Web Font ICON lib
 
-**[在线使用](https://www.theajack.com/easy-icon/index_cn.html) | [English](https://github.com/theajack/easy-icon/blob/master/README.md)**
+**[在线使用](https://theajack.gitee.io/easy-icon/index_cn.html) | [English](https://github.com/theajack/easy-icon/blob/master/README.md)**
 
 ----
 
@@ -25,7 +25,7 @@ Easy-ICON 使用 Font-Awesome 图标库, 对原作者做出的贡献表示感谢
 
 #### 2.1 使用css文件引用:(推荐下载到本地然后引用本地文件)
 ```html
-<link rel="stylesheet" href="https://www.theajack.com/easy-icon/dist/easy-icon.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon.min.css">
 ```
 
 #### 2.2 或者使用npm安装:
@@ -48,7 +48,7 @@ Easy ICON使用起来十分简单，您只需要在您想要使用的地方插�
 <i class="ei-spmile"></i>
 ```
 
-[查看可用的图标](https://www.theajack.com/easy-icon/)
+[查看可用的图标](https://theajack.gitee.io/easy-icon/)
 
 ![Easy-ICON](https://github.com/theajack/easy-icon/blob/master/assets/images/icons.png?raw=true)
 

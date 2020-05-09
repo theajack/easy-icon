@@ -1,6 +1,6 @@
 var css = require('./easy-icon.css.js');
 
-console.info('Easy-icon: 图标使用查询请访问[https://www.theajack.com/easy-icon]');
+console.info('Easy-icon: 图标使用查询请访问[https://theajack.gitee.io/easy-icon/]');
 
 function main(){
     if(typeof window==='undefined'){
