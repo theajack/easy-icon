@@ -1,30 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .title{
-            font-size: 20px;
-            font-weight: bold;
-            margin: 10px 0;
-        }
-        .content{
-
-        }
-        i{
-            margin: 2px!important;
-            font-size: 18px;
-
-        }
-    </style>
-    <link rel="stylesheet" href="./icon-new.css">
-</head>
-<body>
-    <div id='container'></div>
-    <script>
-        var dict = {
+{
     "iconfont": [
         "icon-github",
         "icon-pfork",
@@ -1625,20 +1599,3 @@
         "el-icon-loading"
     ]
 }
-let container = document.getElementById('container');
-let html = '';
-for(let k in dict){
-    html+=`<div class='title'>${k}</div><div class='content'>${buildDom(k, dict[k]).join('')}</div>`;
-}
-container.innerHTML = html
-function buildDom(k, arr){
-    switch(k){
-        case 'iconfont': return arr.map(item=>`<i class="iconfont ${item}"></i>`);
-        case 'fa': return arr.map(item=>`<i class="fa ${item}"></i>`);
-        case 'file': return arr.map(item=>`<i class="file-icon ${item}"></i>`);
-        case 'element': return arr.map(item=>`<i class="${item}"></i>`);
-    }
-}
-    </script>
-</body>
-</html>
