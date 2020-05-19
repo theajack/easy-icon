@@ -7107,6 +7107,22 @@ a [class*=' el-'],a [class^='el-'] {
 	content: "\E615"
 }
 
+.el-caret-left:before {
+	content: "\E60A"
+}
+
+.el-caret-bottom:before {
+	content: "\E60B"
+}
+
+.el-caret-top:before {
+	content: "\E60C"
+}
+
+.el-caret-right:before {
+	content: "\E60E"
+}
+
 .el-sort:before {
 	content: "\E640"
 }

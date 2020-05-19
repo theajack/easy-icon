@@ -71,7 +71,7 @@
     margin: 0;
 }
 
-[class*=' ei-'],[class^='ei-']{
+#iconList i{
     font-size: 16px;
     top: 2px;
     position: relative;
@@ -174,4 +174,9 @@
     color: #aaa;
     display: none;
     border-bottom: 1px solid #eee;
+}
+.clearfix{
+    display: block;
+    content: "";
+    clear: both;
 }
