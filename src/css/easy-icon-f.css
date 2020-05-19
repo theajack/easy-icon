@@ -1,0 +1,2752 @@
+@charset 'UTF-8';
+
+@font-face {
+	font-family:FontAwesome;font-weight:normal;font-style:normal;src:url(https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/font/fontawesome.af7ae50.woff2)
+}
+
+@font-face {
+	font-family:Mfizz;src:url(https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/font/mfixx.0a32a80.woff2);font-weight:400;font-style:normal
+}
+
+@font-face {
+	font-family:Devicons;src:url(https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/font/devopicons.e19892d.woff2);font-weight:normal;font-style:normal
+}
+
+@font-face {
+	font-family:file-icons;src:url(https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/font/file-icons.11d1a23.woff2);font-weight:normal;font-style:normal
+}
+
+@font-face {
+	font-family:octicons;src:url(https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/font/octicons.de59a97.woff2);font-weight:normal;font-style:normal
+}
+
+
+[class*=' ef-'],[class^='ef-']{
+	font-size: inherit;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	line-height: 1;
+	text-transform: none;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[class*=' ef-']:before,[class^='ef-']:before {
+	display: inline-block;
+	min-width: 14px;
+	text-align: center;
+}
+a [class*=' ef-'],a [class^='ef-'] {
+	display: inline;
+}
+
+.ei-xs {
+	font-size: 10px;
+}.ei-s {
+	font-size: 12px;
+}.ei-l {
+	font-size: 18px;
+}.ei-xl {
+	font-size: 22px;
+}
+.ei-2x {
+	font-size: 28px;
+}.ei-3x {
+	font-size: 42px;
+}.ei-4x {
+	font-size: 56px;
+}.ei-5x {
+	font-size: 70px;
+}
+
+.ei-spin {
+	display: inline-block;
+	-webkit-animation: spin 2s infinite linear;
+	-o-animation: spin 2s infinite linear;
+	animation: spin 2s infinite linear;
+}
+
+a .ei-spin {
+	display: inline-block;
+	text-decoration: none;
+}
+
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg);
+	}
+}
+
+@-o-keyframes spin {
+	0% {
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+
+	100% {
+		-o-transform: rotate(359deg);
+		transform: rotate(359deg);
+	}
+}
+
+@keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(359deg);
+		-o-transform: rotate(359deg);
+		transform: rotate(359deg);
+	}
+}
+
+.ei-rotate-90:before {
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.ei-rotate-180:before {
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.ei-rotate-270:before {
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	-webkit-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+
+.ei-flip-horizontal:before {
+	-webkit-transform: scale(-1,1);
+	-ms-transform: scale(-1,1);
+	-o-transform: scale(-1,1);
+	transform: scale(-1,1);
+}
+
+.ei-flip-vertical:before {
+	-webkit-transform: scale(1,-1);
+	-ms-transform: scale(1,-1);
+	-o-transform: scale(1,-1);
+	transform: scale(1,-1);
+}
+
+.ei-rotate-90:before,.ei-rotate-180:before,.ei-rotate-270:before,.ei-flip-horizontal:before,.ei-flip-vertical:before {
+	display: inline-block;
+}
+
+
+.ef-binary:before {
+	content: "\F094"
+}
+
+.ef-binary:before,.ef-book:before {
+	font-family: octicons;
+}
+
+.ef-book:before {
+	content: "\F007"
+}
+
+.ef-brew:before {
+	font-family: octicons;
+	content: "\F069";
+}
+
+.ef-checklist:before {
+	font-family: octicons;
+	content: "\F076";
+}
+
+.ef-code:before {
+	content: "\F05F"
+}
+
+.ef-code:before,.ef-database:before {
+	font-family: octicons;
+}
+
+.ef-database:before {
+	content: "\F096"
+}
+
+.ef-gear:before {
+	content: "\F02F"
+}
+
+.ef-gear:before,.ef-git-commit:before {
+	font-family: octicons;
+}
+
+.ef-git-commit:before {
+	content: "\F01F"
+}
+
+.ef-git-merge:before {
+	content: "\F023"
+}
+
+.ef-git-merge:before,.ef-github:before {
+	font-family: octicons;
+}
+
+.ef-github:before {
+	content: "\F00A"
+}
+
+.ef-graph:before {
+	content: "\F043"
+}
+
+.ef-graph:before,.ef-image:before {
+	font-family: octicons;
+}
+
+.ef-image:before {
+	content: "\F012"
+}
+
+.ef-key:before {
+	content: "\F049"
+}
+
+.ef-key:before,.ef-link:before {
+	font-family: octicons;
+}
+
+.ef-link:before {
+	content: "\F0B0"
+}
+
+.ef-markdown:before {
+	content: "\F0C9"
+}
+
+.ef-markdown:before,.ef-package:before {
+	font-family: octicons;
+}
+
+.ef-package:before {
+	content: "\F0C4"
+}
+
+.ef-ruby:before {
+	content: "\F047"
+}
+
+.ef-ruby:before,.ef-secret:before {
+	font-family: octicons;
+}
+
+.ef-secret:before {
+	content: "\F08C"
+}
+
+.ef-squirrel:before {
+	font-family: octicons;
+	content: "\F0B2";
+}
+
+.ef-text:before {
+	content: "\F011"
+}
+
+.ef-text:before,.ef-zip:before {
+	font-family: octicons;
+}
+
+.ef-zip:before {
+	content: "\F013"
+}
+
+.ef-android:before {
+	font-family: FontAwesome;
+	content: "\F17B";
+}
+
+.ef-at:before {
+	content: "\F1FA"
+}
+
+.ef-at:before,.ef-audio:before {
+	font-family: FontAwesome;
+}
+
+.ef-audio:before {
+	content: "\F028"
+}
+
+.ef-bullhorn:before {
+	font-family: FontAwesome;
+	content: "\F0A1";
+}
+
+.ef-calc:before {
+	content: "\F1EC"
+}
+
+.ef-calc:before,.ef-coffee:before {
+	font-family: FontAwesome;
+}
+
+.ef-coffee:before {
+	content: "\F0F4";
+}
+
+.ef-css3:before {
+	content: "\F13C";
+}
+
+.ef-circle:before,.ef-css3:before {
+	font-family: FontAwesome;
+}
+
+.ef-circle:before {
+	content: "\F111";
+}
+
+.ef-earth:before {
+	content: "\F0AC"
+}
+
+.ef-earth:before,.ef-gears:before {
+	font-family: FontAwesome;
+}
+
+.ef-gears:before {
+	content: "\F085"
+}
+
+.ef-html5:before {
+	font-family: FontAwesome;
+	content: "\F13B";
+}
+
+.ef-mobile:before {
+	font-family: FontAwesome;
+	content: "\F10B";
+}
+
+.ef-moon:before {
+	font-family: FontAwesome;
+	content: "\F186";
+}
+
+.ef-music:before {
+	content: "\F001"
+}
+
+.ef-music:before,.ef-print:before {
+	font-family: FontAwesome;
+}
+
+.ef-print:before {
+	content: "\F02F";
+}
+
+.ef-recycle:before {
+	font-family: FontAwesome;
+	content: "\F1B8";
+}
+
+.ef-rss:before {
+	font-family: FontAwesome;
+	content: "\F143";
+}
+
+.ef-smarty:before {
+	font-family: FontAwesome;
+	content: "\F0EB";
+}
+
+.ef-sourcemap:before {
+	content: "\F279"
+}
+
+.ef-sourcemap:before,.ef-sun:before {
+	font-family: FontAwesome;
+}
+
+.ef-sun:before {
+	content: "\F185";
+}
+
+.ef-toc:before {
+	font-family: FontAwesome;
+	content: "\F03A";
+}
+
+.ef-twig:before {
+	content: "\F1BB"
+}
+
+.ef-pdf:before,.ef-twig:before {
+	font-family: FontAwesome;
+}
+
+.ef-pdf:before {
+	content: "\F1C1"
+}
+
+.ef-folder:before {
+	content: "\F07B"
+}
+
+.ef-folder-icon:before,.ef-folder:before {
+	font-family: FontAwesome;
+}
+
+.ef-folder-icon:before {
+	content: "\F07C"
+}
+
+.ef-file-ge:before {
+	font-family: FontAwesome;
+	content: "\F0F6";
+}
+
+.ef-apache:before {
+	content: "\F102";
+}
+
+.ef-apache:before,.ef-archlinux:before {
+	font-family: Mfizz;
+}
+
+.ef-archlinux:before {
+	content: "A";
+}
+
+.ef-c:before {
+	font-family: Mfizz;
+	content: "\F106";
+}
+
+.ef-cpp:before {
+	content: "\F10B"
+}
+
+.ef-cpp:before,.ef-csharp:before {
+	font-family: Mfizz;
+}
+
+.ef-csharp:before {
+	content: "\F10C"
+}
+
+.ef-debian:before {
+	content: "\F111"
+}
+
+.ef-debian:before,.ef-elixir:before {
+	font-family: Mfizz;
+}
+
+.ef-elixir:before {
+	content: "\F113"
+}
+
+.ef-gnome:before {
+	font-family: Mfizz;
+	content: "\F119";
+}
+
+.ef-haskell:before {
+	content: "\F121"
+}
+
+.ef-haskell:before,.ef-java:before {
+	font-family: Mfizz;
+}
+
+.ef-java:before {
+	content: "\F126"
+}
+
+.ef-js:before {
+	font-family: Mfizz;
+	content: "\F129";
+}
+
+.ef-msql:before {
+	font-family: Mfizz;
+	content: "\F136";
+}
+
+.ef-objc:before {
+	font-family: Mfizz;
+	content: "\F13E";
+}
+
+.ef-osx:before {
+	content: "\F141"
+}
+
+.ef-osx:before,.ef-perl:before {
+	font-family: Mfizz;
+}
+
+.ef-perl:before {
+	content: "\F142"
+}
+
+.ef-python:before {
+	font-family: Mfizz;
+	content: "\F14C";
+}
+
+.ef-red-hat:before {
+	font-family: Mfizz;
+	content: "\F14E";
+}
+
+.ef-scala:before {
+	content: "\F154"
+}
+
+.ef-scala:before,.ef-sql:before {
+	font-family: Mfizz;
+}
+
+.ef-sql:before {
+	content: "\F10E"
+}
+
+.ef-svg:before {
+	font-family: Mfizz;
+	content: "\F15C";
+}
+
+.ef-tt:before {
+	font-family: Mfizz;
+	content: "TT"
+}
+
+.ef-x11:before {
+	font-family: Mfizz;
+	content: "\F16E";
+}
+
+.ef-angular:before {
+	font-family: Devicons;
+	content: "\E653"
+}
+
+.ef-appcelerator:before {
+	font-family: Devicons;
+	content: "\E6AB"
+}
+
+.ef-appstore:before {
+	content: "\E613"
+}
+
+.ef-appstore:before,.ef-asp:before {
+	font-family: Devicons;
+}
+
+.ef-asp:before {
+	content: "\E67F"
+}
+
+.ef-atom:before {
+	content: "\E664";
+}
+
+.ef-atom:before,.ef-backbone:before {
+	font-family: Devicons;
+}
+
+.ef-backbone:before {
+	content: "\E652"
+}
+
+.ef-bootstrap:before {
+	font-family: Devicons;
+	content: "\E647";
+}
+
+.ef-bower:before {
+	content: "\E64D";
+}
+
+.ef-bower:before,.ef-chrome:before {
+	font-family: Devicons;
+}
+
+.ef-chrome:before {
+	content: "\E643"
+}
+
+.ef-clojure:before {
+	font-family: Devicons;
+	content: "\E668";
+}
+
+.ef-compass:before {
+	font-family: Devicons;
+	content: "\E661";
+}
+
+.ef-dart:before {
+	font-family: Devicons;
+	content: "\E698";
+}
+
+.ef-dlang:before {
+	font-family: Devicons;
+	content: "\E6AF"
+}
+
+.ef-dojo:before {
+	font-family: Devicons;
+	content: "\E61C";
+}
+
+.ef-dropbox:before {
+	content: "\E607"
+}
+
+.ef-dropbox:before,.ef-eclipse:before {
+	font-family: Devicons;
+}
+
+.ef-eclipse:before {
+	content: "\E69E"
+}
+
+.ef-erlang:before {
+	content: "\E6B1"
+}
+
+.ef-erlang:before,.ef-extjs:before {
+	font-family: Devicons;
+}
+
+.ef-extjs:before {
+	content: "\E68E"
+}
+
+.ef-fsharp:before {
+	content: "\E6A7";
+}
+
+.ef-fsharp:before,.ef-git:before {
+	font-family: Devicons;
+}
+
+.ef-git:before {
+	content: "\E602";
+}
+
+.ef-heroku:before {
+	font-family: Devicons;
+	content: "\E67B"
+}
+
+.ef-jquery:before {
+	content: "\E650"
+}
+
+.ef-jquery:before,.ef-jqueryui:before {
+	font-family: Devicons;
+}
+
+.ef-jqueryui:before {
+	content: "\E654"
+}
+
+.ef-laravel:before {
+	content: "\E63F"
+}
+
+.ef-laravel:before,.ef-materialize:before {
+	font-family: Devicons;
+}
+
+.ef-materialize:before {
+	content: "\E6B6";
+}
+
+.ef-modernizr:before {
+	font-family: Devicons;
+	content: "\E620"
+}
+
+.ef-mootools:before {
+	content: "\E68F";
+}
+
+.ef-mootools:before,.ef-node:before {
+	font-family: Devicons;
+}
+
+.ef-node:before {
+	content: "\E618"
+}
+
+.ef-pod:before {
+	font-family: Devicons;
+	content: "\E669";
+}
+
+.ef-prolog:before {
+	content: "\E6A1"
+}
+
+.ef-prolog:before,.ef-rails:before {
+	font-family: Devicons;
+}
+
+.ef-rails:before {
+	content: "\E63B"
+}
+
+.ef-raphael:before {
+	font-family: Devicons;
+	content: "\E65F";
+}
+
+.ef-requirejs:before {
+	content: "\E670"
+}
+
+.ef-requirejs:before,.ef-rust:before {
+	font-family: Devicons;
+}
+
+.ef-rust:before {
+	content: "\E6A8"
+}
+
+.ef-sass:before {
+	content: "\E64B"
+}
+
+.ef-sass:before,.ef-sencha:before {
+	font-family: Devicons;
+}
+
+.ef-sencha:before {
+	content: "\E68C"
+}
+
+.ef-snapsvg:before {
+	content: "\E65E"
+}
+
+.ef-snapsvg:before,.ef-swift:before {
+	font-family: Devicons;
+}
+
+.ef-swift:before {
+	content: "\E655";
+}
+
+.ef-travis:before {
+	content: "\E67E"
+}
+
+.ef-travis:before,.ef-uikit:before {
+	font-family: Devicons;
+}
+
+.ef-uikit:before {
+	content: "\E673"
+}
+
+.ef-unity3d:before {
+	content: "\E621"
+}
+
+.ef-unity3d:before,.ef-vim:before {
+	font-family: Devicons;
+}
+
+.ef-vim:before {
+	content: "\E6C5"
+}
+
+.ef-vs:before {
+	content: "\E60C"
+}
+
+.ef-vs:before,.ef-windows:before {
+	font-family: Devicons;
+}
+
+.ef-windows:before {
+	content: "\E60F"
+}
+
+.ef-yeoman:before {
+	font-family: Devicons;
+	content: "\E67A"
+}
+
+.ef-_1c:before {
+	content: "\A5EA"
+}
+
+.ef-_1c-alt:before,.ef-_1c:before {
+	font-family: file-icons;
+}
+
+.ef-_1c-alt:before {
+	content: "\EA28"
+}
+
+.ef-abap:before {
+	content: "\E92B"
+}
+
+.ef-abap:before,.ef-access:before {
+	font-family: file-icons;
+}
+
+.ef-access:before {
+	content: "\E9EA"
+}
+
+.ef-ada:before {
+	font-family: file-icons;
+	content: "\E90B";
+}
+
+.ef-ae:before {
+	content: "\E9F3"
+}
+
+.ef-ae:before,.ef-ahk:before {
+	font-family: file-icons;
+}
+
+.ef-ahk:before {
+	content: "\E932"
+}
+
+.ef-ai:before {
+	content: "\E6B4"
+}
+
+.ef-ai:before,.ef-alloy:before {
+	font-family: file-icons;
+}
+
+.ef-alloy:before {
+	content: "\E935"
+}
+
+.ef-alpine:before {
+	font-family: file-icons;
+	content: "\E9FF";
+}
+
+.ef-ampl:before {
+	content: "\E94E";
+}
+
+.ef-ampl:before,.ef-amx:before {
+	font-family: file-icons;
+}
+
+.ef-amx:before {
+	content: "\E99B"
+}
+
+.ef-ant:before {
+	font-family: file-icons;
+	content: "\E93E";
+}
+
+.ef-antlr:before {
+	font-family: file-icons;
+	content: "\E92C";
+}
+
+.ef-api:before {
+	content: "\E92D"
+}
+
+.ef-api:before,.ef-apl:before {
+	font-family: file-icons;
+}
+
+.ef-apl:before {
+	content: "\234B"
+}
+
+.ef-apple:before {
+	font-family: file-icons;
+	content: "\E925";
+}
+
+.ef-appveyor:before {
+	content: "\E923"
+}
+
+.ef-appveyor:before,.ef-arc:before {
+	font-family: file-icons;
+}
+
+.ef-arc:before {
+	content: "\E92F"
+}
+
+.ef-arduino:before {
+	font-family: file-icons;
+	content: "\E930";
+}
+
+.ef-arttext:before {
+	font-family: file-icons;
+	content: "\24D0";
+}
+
+.ef-as:before {
+	content: "\E92E"
+}
+
+.ef-as:before,.ef-asciidoc:before {
+	font-family: file-icons;
+}
+
+.ef-asciidoc:before {
+	content: "\E918"
+}
+
+.ef-ats:before {
+	content: "\E934"
+}
+
+.ef-ats:before,.ef-audacity:before {
+	font-family: file-icons;
+}
+
+.ef-audacity:before {
+	content: "\E9F9"
+}
+
+.ef-augeas:before {
+	content: "\E931"
+}
+
+.ef-augeas:before,.ef-autoit:before {
+	font-family: file-icons;
+}
+
+.ef-autoit:before {
+	content: "\E933";
+}
+
+.ef-babel:before {
+	content: "\E91F";
+}
+
+.ef-babel:before,.ef-bibtex:before {
+	font-family: file-icons;
+}
+
+.ef-bibtex:before {
+	content: "\E601";
+}
+
+.ef-blender:before {
+	font-family: file-icons;
+	content: "\E9FA";
+}
+
+.ef-bluespec:before {
+	font-family: file-icons;
+	content: "\E93C";
+}
+
+.ef-boo:before {
+	content: "\E939"
+}
+
+.ef-boo:before,.ef-boot:before {
+	font-family: file-icons;
+}
+
+.ef-boot:before {
+	content: "\F103";
+}
+
+.ef-brain:before {
+	content: "\E93A"
+}
+
+.ef-brain:before,.ef-brakeman:before {
+	font-family: file-icons;
+}
+
+.ef-brakeman:before {
+	content: "\E9D6"
+}
+
+.ef-bro:before {
+	font-family: file-icons;
+	content: "\E93B";
+}
+
+.ef-broccoli:before {
+	font-family: file-icons;
+	content: "\E922";
+}
+
+.ef-byond:before {
+	content: "\E962"
+}
+
+.ef-byond:before,.ef-cabal:before {
+	font-family: file-icons;
+}
+
+.ef-cabal:before {
+	content: "\E9C2"
+}
+
+.ef-cake:before {
+	content: "\E9E3"
+}
+
+.ef-cake:before,.ef-cakefile:before {
+	font-family: file-icons;
+}
+
+.ef-cakefile:before {
+	content: "\E924"
+}
+
+.ef-cakephp:before {
+	font-family: file-icons;
+	content: "\E9D3";
+}
+
+.ef-cc:before {
+	font-family: file-icons;
+	content: "\E9D5";
+}
+
+.ef-ceylon:before {
+	content: "\E94F"
+}
+
+.ef-ceylon:before,.ef-cf:before {
+	font-family: file-icons;
+}
+
+.ef-cf:before {
+	content: "\E929"
+}
+
+.ef-chai:before {
+	font-family: file-icons;
+	content: "c";
+}
+
+.ef-chapel:before {
+	content: "\E950"
+}
+
+.ef-chapel:before,.ef-chartjs:before {
+	font-family: file-icons;
+}
+
+.ef-chartjs:before {
+	content: "\EA0B"
+}
+
+.ef-chuck:before {
+	content: "\E943"
+}
+
+.ef-chuck:before,.ef-circleci:before {
+	font-family: file-icons;
+}
+
+.ef-circleci:before {
+	content: "\EA12";
+}
+
+.ef-cirru:before {
+	content: "\E951"
+}
+
+.ef-cirru:before,.ef-cl:before {
+	font-family: file-icons;
+}
+
+.ef-cl:before {
+	content: "\E972"
+}
+
+.ef-clarion:before {
+	font-family: file-icons;
+	content: "\E952";
+}
+
+.ef-clean:before {
+	font-family: file-icons;
+	content: "\E95B";
+}
+
+.ef-click:before {
+	font-family: file-icons;
+	content: "\E95C";
+}
+
+.ef-clips:before {
+	font-family: file-icons;
+	content: "\E940";
+}
+
+.ef-cljs:before {
+	content: "\F104";
+}
+
+.ef-cljs:before,.ef-cmake:before {
+	font-family: file-icons;
+}
+
+.ef-cmake:before {
+	content: "\E93F";
+}
+
+.ef-codecov:before {
+	font-family: file-icons;
+	content: "\2602";
+}
+
+.ef-composer:before {
+	font-family: file-icons;
+	content: "\E683";
+}
+
+.ef-config:before {
+	font-family: file-icons;
+	content: "\F07C";
+}
+
+.ef-cordova:before {
+	content: "\EA11"
+}
+
+.ef-coq:before,.ef-cordova:before {
+	font-family: file-icons;
+}
+
+.ef-coq:before {
+	content: "\E95F";
+}
+
+.ef-cp:before {
+	font-family: file-icons;
+	content: "\E942";
+}
+
+.ef-creole:before {
+	content: "\E95E"
+}
+
+.ef-creole:before,.ef-crystal:before {
+	font-family: file-icons;
+}
+
+.ef-crystal:before {
+	content: "\E902";
+}
+
+.ef-csound:before {
+	content: "\E9F0"
+}
+
+.ef-csound:before,.ef-csscript:before {
+	font-family: file-icons;
+}
+
+.ef-csscript:before {
+	content: "\E9E2"
+}
+
+.ef-cucumber:before {
+	font-family: file-icons;
+	content: "\F02B";
+}
+
+.ef-cython:before {
+	content: "\E963"
+}
+
+.ef-cython:before,.ef-d3:before {
+	font-family: file-icons;
+}
+
+.ef-d3:before {
+	content: "\EA10"
+}
+
+.ef-darcs:before {
+	content: "\E964"
+}
+
+.ef-darcs:before,.ef-dashboard:before {
+	font-family: file-icons;
+}
+
+.ef-dashboard:before {
+	content: "\F07D";
+}
+
+.ef-dbase:before {
+	content: "\E9F1"
+}
+
+.ef-dbase:before,.ef-default:before {
+	font-family: file-icons;
+}
+
+.ef-default:before {
+	content: "\1F5CC";
+}
+
+.ef-diff:before {
+	font-family: file-icons;
+	content: "\E960";
+}
+
+.ef-docker:before {
+	font-family: file-icons;
+	content: "\F106";
+}
+
+.ef-doxygen:before {
+	font-family: file-icons;
+	content: "\E928";
+}
+
+.ef-doge:before {
+	font-family: file-icons;
+	content: "\E946";
+}
+
+.ef-dyalog:before {
+	font-family: file-icons;
+	content: "\E90C";
+}
+
+.ef-dylib:before {
+	content: "\EA15";
+}
+
+.ef-dylib:before,.ef-e:before {
+	font-family: file-icons;
+}
+
+.ef-e:before {
+	content: "E";
+}
+
+.ef-eagle:before {
+	content: "\E965"
+}
+
+.ef-eagle:before,.ef-ec:before {
+	font-family: file-icons;
+}
+
+.ef-ec:before {
+	content: "\E9C9"
+}
+
+.ef-ecere:before {
+	font-family: file-icons;
+	content: "\E966";
+}
+
+.ef-editorconfig:before {
+	font-family: file-icons;
+	content: "\EA1B";
+}
+
+.ef-eiffel:before {
+	content: "\E967";
+}
+
+.ef-eiffel:before,.ef-electron:before {
+	font-family: file-icons;
+}
+
+.ef-electron:before {
+	content: "\EA27";
+}
+
+.ef-elm:before {
+	content: "\F102";
+}
+
+.ef-elm:before,.ef-em:before {
+	font-family: file-icons;
+}
+
+.ef-em:before {
+	content: "\E968";
+}
+
+.ef-ember:before {
+	font-family: file-icons;
+	content: "\E61B";
+}
+
+.ef-emacs:before {
+	content: "\E926";
+}
+
+.ef-emacs:before,.ef-eq:before {
+	font-family: file-icons;
+}
+
+.ef-eq:before {
+	content: "\EA0A";
+}
+
+.ef-eslint:before {
+	font-family: file-icons;
+	content: "\EA0F";
+}
+
+.ef-excel:before {
+	content: "\E9EE"
+}
+
+.ef-excel:before,.ef-fabfile:before {
+	font-family: file-icons;
+}
+
+.ef-fabfile:before {
+	content: "\E94B";
+}
+
+.ef-factor:before {
+	font-family: file-icons;
+	content: "\E96A";
+}
+
+.ef-fancy:before {
+	font-family: file-icons;
+	content: "\E96B";
+}
+
+.ef-fantom:before {
+	content: "\E96F";
+}
+
+.ef-fantom:before,.ef-fbx:before {
+	font-family: file-icons;
+}
+
+.ef-fbx:before {
+	content: "\E9FC"
+}
+
+.ef-ff:before {
+	content: "\FB00"
+}
+
+.ef-ff:before,.ef-finder:before {
+	font-family: file-icons;
+}
+
+.ef-finder:before {
+	content: "\E9E9";
+}
+
+.ef-flow:before {
+	content: "\E921";
+}
+
+.ef-flow:before,.ef-flux:before {
+	font-family: file-icons;
+}
+
+.ef-flux:before {
+	content: "\E969";
+}
+
+.ef-font:before {
+	content: "\E90F"
+}
+
+.ef-font:before,.ef-fortran:before {
+	font-family: file-icons;
+}
+
+.ef-fortran:before {
+	content: "\E90A"
+}
+
+.ef-freemarker:before {
+	content: "\E970"
+}
+
+.ef-freemarker:before,.ef-frege:before {
+	font-family: file-icons;
+}
+
+.ef-frege:before {
+	content: "\E96E"
+}
+
+.ef-fuelux:before {
+	font-family: file-icons;
+	content: "\EA09";
+}
+
+.ef-gams:before {
+	content: "\E973";
+}
+
+.ef-gams:before,.ef-gap:before {
+	font-family: file-icons;
+}
+
+.ef-gap:before {
+	content: "\E971";
+}
+
+.ef-gdb:before {
+	font-family: file-icons;
+	content: "\EA08";
+}
+
+.ef-genshi:before {
+	font-family: file-icons;
+	content: "\E976";
+}
+
+.ef-gentoo:before {
+	font-family: file-icons;
+	content: "\E96D";
+}
+
+.ef-gf:before {
+	content: "\E978"
+}
+
+.ef-gf:before,.ef-glade:before {
+	font-family: file-icons;
+}
+
+.ef-glade:before {
+	content: "\E938"
+}
+
+.ef-glyphs:before {
+	content: "G"
+}
+
+.ef-glyphs:before,.ef-gml:before {
+	font-family: file-icons;
+}
+
+.ef-gml:before {
+	content: "\E975";
+}
+
+.ef-gn:before {
+	content: "\EA25"
+}
+
+.ef-gn:before,.ef-gnu:before {
+	font-family: file-icons;
+}
+
+.ef-gnu:before {
+	content: "\E679";
+}
+
+.ef-go:before {
+	font-family: file-icons;
+	content: "\E624";
+}
+
+.ef-godot:before {
+	content: "\E974"
+}
+
+.ef-godot:before,.ef-golo:before {
+	font-family: file-icons;
+}
+
+.ef-golo:before {
+	content: "\E979"
+}
+
+.ef-gosu:before {
+	font-family: file-icons;
+	content: "\E97A";
+}
+
+.ef-gradle:before {
+	font-family: file-icons;
+	content: "\E903";
+}
+
+.ef-graphql:before {
+	font-family: file-icons;
+	content: "\E97C";
+}
+
+.ef-graphviz:before {
+	content: "\E97D";
+}
+
+.ef-graphviz:before,.ef-groovy:before {
+	font-family: file-icons;
+}
+
+.ef-groovy:before {
+	content: "\E904";
+}
+
+.ef-grunt:before {
+	font-family: file-icons;
+	content: "\E611";
+}
+
+.ef-gulp:before {
+	font-family: file-icons;
+	content: "\E610";
+}
+
+.ef-hack:before {
+	content: "\E9CE"
+}
+
+.ef-hack:before,.ef-haml:before {
+	font-family: file-icons;
+}
+
+.ef-haml:before {
+	content: "\F15B"
+}
+
+.ef-harbour:before {
+	font-family: file-icons;
+	content: "\E97B";
+}
+
+.ef-hashicorp:before {
+	content: "\E97E"
+}
+
+.ef-hashicorp:before,.ef-haxe:before {
+	font-family: file-icons;
+}
+
+.ef-haxe:before {
+	content: "\E907"
+}
+
+.ef-hy:before {
+	content: "\E97F";
+}
+
+.ef-hy:before,.ef-idl:before {
+	font-family: file-icons;
+}
+
+.ef-idl:before {
+	content: "\E947";
+}
+
+.ef-idris:before {
+	content: "\E983"
+}
+
+.ef-idris:before,.ef-igorpro:before {
+	font-family: file-icons;
+}
+
+.ef-igorpro:before {
+	content: "\E980"
+}
+
+.ef-indesign:before {
+	content: "\E9F4"
+}
+
+.ef-indesign:before,.ef-inform7:before {
+	font-family: file-icons;
+}
+
+.ef-inform7:before {
+	content: "\E984";
+}
+
+.ef-inno:before {
+	content: "\E985";
+}
+
+.ef-inno:before,.ef-io:before {
+	font-family: file-icons;
+}
+
+.ef-io:before {
+	content: "\E981";
+}
+
+.ef-ioke:before {
+	content: "\E982"
+}
+
+.ef-ioke:before,.ef-ionic:before {
+	font-family: file-icons;
+}
+
+.ef-ionic:before {
+	content: "\F14B"
+}
+
+.ef-isabelle:before {
+	font-family: file-icons;
+	content: "\E945";
+}
+
+.ef-j:before {
+	font-family: file-icons;
+	content: "\E937";
+}
+
+.ef-jade:before {
+	font-family: file-icons;
+	content: "\E90D";
+}
+
+.ef-jake:before {
+	font-family: file-icons;
+	content: "\E948";
+}
+
+.ef-jenkins:before {
+	font-family: file-icons;
+	content: "\E667";
+}
+
+.ef-jinja:before {
+	font-family: file-icons;
+	content: "\E944";
+}
+
+.ef-jsonld:before {
+	font-family: file-icons;
+	content: "\E958";
+}
+
+.ef-jsx:before {
+	content: "\E9E6"
+}
+
+.ef-jsx:before,.ef-julia:before {
+	font-family: file-icons;
+}
+
+.ef-julia:before {
+	content: "\26EC"
+}
+
+.ef-jupyter:before {
+	font-family: file-icons;
+	content: "\E987";
+}
+
+.ef-karma:before {
+	content: "\E9CD"
+}
+
+.ef-karma:before,.ef-keynote:before {
+	font-family: file-icons;
+}
+
+.ef-keynote:before {
+	content: "\E9E5"
+}
+
+.ef-khronos:before {
+	content: "\E9F8"
+}
+
+.ef-khronos:before,.ef-kivy:before {
+	font-family: file-icons;
+}
+
+.ef-kivy:before {
+	content: "\E901"
+}
+
+.ef-knockout:before {
+	font-family: file-icons;
+	content: "K";
+}
+
+.ef-kotlin:before {
+	content: "\E989"
+}
+
+.ef-kotlin:before,.ef-krl:before {
+	font-family: file-icons;
+}
+
+.ef-krl:before {
+	content: "\E988"
+}
+
+.ef-labview:before {
+	font-family: file-icons;
+	content: "\E98A";
+}
+
+.ef-lasso:before {
+	content: "\E98C";
+}
+
+.ef-lasso:before,.ef-leaflet:before {
+	font-family: file-icons;
+}
+
+.ef-leaflet:before {
+	content: "\EA07"
+}
+
+.ef-lean:before {
+	font-family: file-icons;
+	content: "L";
+}
+
+.ef-lein:before {
+	content: "\F105";
+}
+
+.ef-lein:before,.ef-lfe:before {
+	font-family: file-icons;
+}
+
+.ef-lfe:before {
+	content: "\E94C";
+}
+
+.ef-lightwave:before {
+	font-family: file-icons;
+	content: "\E9FB";
+}
+
+.ef-lisp:before {
+	content: "\E908"
+}
+
+.ef-lisp:before,.ef-llvm:before {
+	font-family: file-icons;
+}
+
+.ef-llvm:before {
+	content: "\E91D"
+}
+
+.ef-logtalk:before {
+	content: "\E98D"
+}
+
+.ef-logtalk:before,.ef-lookml:before {
+	font-family: file-icons;
+}
+
+.ef-lookml:before {
+	content: "\E98E";
+}
+
+.ef-ls:before {
+	font-family: file-icons;
+	content: "\E914";
+}
+
+.ef-lsl:before {
+	content: "\E98B";
+}
+
+.ef-lsl:before,.ef-lua:before {
+	font-family: file-icons;
+}
+
+.ef-lua:before {
+	content: "\E91B";
+}
+
+.ef-mako:before {
+	font-family: file-icons;
+	content: "\E98F";
+}
+
+.ef-mapbox:before {
+	font-family: file-icons;
+	content: "\E941";
+}
+
+.ef-marko:before {
+	font-family: file-icons;
+	content: "\E920";
+}
+
+.ef-mathematica:before {
+	font-family: file-icons;
+	content: "\E990";
+}
+
+.ef-mathjax:before {
+	content: "\EA06"
+}
+
+.ef-mathjax:before,.ef-matlab:before {
+	font-family: file-icons;
+}
+
+.ef-matlab:before {
+	content: "\E991"
+}
+
+.ef-max:before {
+	content: "\E993"
+}
+
+.ef-max:before,.ef-maxscript:before {
+	font-family: file-icons;
+}
+
+.ef-maxscript:before {
+	content: "\E900"
+}
+
+.ef-maya:before {
+	font-family: file-icons;
+	content: "\E9F6";
+}
+
+.ef-manpage:before {
+	font-family: file-icons;
+	content: "\E936";
+}
+
+.ef-mediawiki:before {
+	content: "\E954";
+}
+
+.ef-mediawiki:before,.ef-mercury:before {
+	font-family: file-icons;
+}
+
+.ef-mercury:before {
+	content: "\E994";
+}
+
+.ef-metal:before {
+	content: "M";
+}
+
+.ef-metal:before,.ef-meteor:before {
+	font-family: file-icons;
+}
+
+.ef-meteor:before {
+	content: "\E6A5"
+}
+
+.ef-minecraft:before {
+	content: "\E9DC"
+}
+
+.ef-minecraft:before,.ef-mirah:before {
+	font-family: file-icons;
+}
+
+.ef-mirah:before {
+	content: "\E995"
+}
+
+.ef-mocha:before {
+	font-family: file-icons;
+	content: "\26FE";
+}
+
+.ef-model:before {
+	font-family: file-icons;
+	content: "\E9E8";
+}
+
+.ef-modula2:before {
+	font-family: file-icons;
+	content: "\E996";
+}
+
+.ef-monkey:before {
+	font-family: file-icons;
+	content: "\E997";
+}
+
+.ef-mruby:before {
+	font-family: file-icons;
+	content: "\EA18";
+}
+
+.ef-mupad:before {
+	content: "\E9CA";
+}
+
+.ef-mupad:before,.ef-mustache:before {
+	font-family: file-icons;
+}
+
+.ef-mustache:before {
+	content: "\E60F";
+}
+
+.ef-nant:before {
+	font-family: file-icons;
+	content: "\E9E1";
+}
+
+.ef-neko:before {
+	content: "\EA05"
+}
+
+.ef-neko:before,.ef-netlogo:before {
+	font-family: file-icons;
+}
+
+.ef-netlogo:before {
+	content: "\E99C";
+}
+
+.ef-newrelic:before {
+	content: "\E9D7"
+}
+
+.ef-newrelic:before,.ef-nginx:before {
+	font-family: file-icons;
+}
+
+.ef-nginx:before {
+	content: "\F146B"
+}
+
+.ef-nib:before {
+	content: "\2712"
+}
+
+.ef-nib:before,.ef-nimrod:before {
+	font-family: file-icons;
+}
+
+.ef-nimrod:before {
+	content: "\E998"
+}
+
+.ef-nit:before {
+	font-family: file-icons;
+	content: "\E999";
+}
+
+.ef-nix:before {
+	content: "\E99A"
+}
+
+.ef-nix:before,.ef-nmap:before {
+	font-family: file-icons;
+}
+
+.ef-nmap:before {
+	content: "\E94D";
+}
+
+.ef-nodemon:before {
+	font-family: file-icons;
+	content: "\EA26";
+}
+
+.ef-normalize:before {
+	font-family: file-icons;
+	content: "\EA04";
+}
+
+.ef-npm:before {
+	content: "\E91C"
+}
+
+.ef-npm:before,.ef-nsis:before {
+	font-family: file-icons;
+}
+
+.ef-nsis:before {
+	content: "\EA1E";
+}
+
+.ef-numpy:before {
+	font-family: file-icons;
+	content: "\E99D";
+}
+
+.ef-nuget:before {
+	content: "\E9D9"
+}
+
+.ef-nuget:before,.ef-nunjucks:before {
+	font-family: file-icons;
+}
+
+.ef-nunjucks:before {
+	content: "\E953";
+}
+
+.ef-nvidia:before {
+	content: "\E95D"
+}
+
+.ef-nvidia:before,.ef-objj:before {
+	font-family: file-icons;
+}
+
+.ef-objj:before {
+	content: "\E99E"
+}
+
+.ef-ocaml:before {
+	font-family: file-icons;
+	content: "\E91A";
+}
+
+.ef-onenote:before {
+	content: "\E9EB"
+}
+
+.ef-onenote:before,.ef-ooc:before {
+	font-family: file-icons;
+}
+
+.ef-ooc:before {
+	content: "\E9CB"
+}
+
+.ef-opa:before {
+	content: "\2601"
+}
+
+.ef-opa:before,.ef-opencl:before {
+	font-family: file-icons;
+}
+
+.ef-opencl:before {
+	content: "\E99F";
+}
+
+.ef-openoffice:before {
+	font-family: file-icons;
+	content: "\E9E4";
+}
+
+.ef-org:before {
+	font-family: file-icons;
+	content: "\E917";
+}
+
+.ef-owl:before {
+	content: "\E957";
+}
+
+.ef-owl:before,.ef-ox:before {
+	font-family: file-icons;
+}
+
+.ef-ox:before {
+	content: "\E9A1";
+}
+
+.ef-oxygene:before {
+	content: "\E9BF"
+}
+
+.ef-oxygene:before,.ef-oz:before {
+	font-family: file-icons;
+}
+
+.ef-oz:before {
+	content: "\E9BE"
+}
+
+.ef-pan:before {
+	content: "\E9BD"
+}
+
+.ef-pan:before,.ef-papyrus:before {
+	font-family: file-icons;
+}
+
+.ef-papyrus:before {
+	content: "\E9BC"
+}
+
+.ef-parrot:before {
+	font-family: file-icons;
+	content: "\E9BB";
+}
+
+.ef-pascal:before {
+	content: "\E92A"
+}
+
+.ef-pascal:before,.ef-patch:before {
+	font-family: file-icons;
+}
+
+.ef-patch:before {
+	content: "\E961"
+}
+
+.ef-pawn:before {
+	font-family: file-icons;
+	content: "\265F";
+}
+
+.ef-perl6:before {
+	content: "\E96C"
+}
+
+.ef-perl6:before,.ef-phalcon:before {
+	font-family: file-icons;
+}
+
+.ef-phalcon:before {
+	content: "\E94A"
+}
+
+.ef-php:before {
+	font-family: file-icons;
+	content: "\F147";
+}
+
+.ef-pickle:before {
+	font-family: file-icons;
+	content: "\E9C4";
+}
+
+.ef-pike:before {
+	content: "\E9B9";
+}
+
+.ef-pike:before,.ef-pogo:before {
+	font-family: file-icons;
+}
+
+.ef-pogo:before {
+	content: "\E9B8";
+}
+
+.ef-pony:before {
+	font-family: file-icons;
+	content: "\E9B7";
+}
+
+.ef-pointwise:before {
+	content: "\E977"
+}
+
+.ef-pointwise:before,.ef-postcss:before {
+	font-family: file-icons;
+}
+
+.ef-postcss:before {
+	content: "\E910";
+}
+
+.ef-postscript:before {
+	content: "\E955"
+}
+
+.ef-postscript:before,.ef-povray:before {
+	font-family: file-icons;
+}
+
+.ef-povray:before {
+	content: "P"
+}
+
+.ef-powerbuilder:before {
+	font-family: file-icons;
+	content: "\EA14"
+}
+
+.ef-powerpoint:before {
+	font-family: file-icons;
+	content: "\E9EC";
+}
+
+.ef-powershell:before {
+	font-family: file-icons;
+	content: "\E9DA";
+}
+
+.ef-premiere:before {
+	font-family: file-icons;
+	content: "\E9F5";
+}
+
+.ef-processing:before {
+	font-family: file-icons;
+	content: "\E9A0";
+}
+
+.ef-progress:before {
+	content: "\E9C0";
+}
+
+.ef-progress:before,.ef-propeller:before {
+	font-family: file-icons;
+}
+
+.ef-propeller:before {
+	content: "\E9B5";
+}
+
+.ef-protractor:before {
+	font-family: file-icons;
+	content: "\E9DE";
+}
+
+.ef-psd:before {
+	font-family: file-icons;
+	content: "\E6B8";
+}
+
+.ef-pug:before {
+	content: "\EA13"
+}
+
+.ef-pug-alt:before,.ef-pug:before {
+	font-family: file-icons;
+}
+
+.ef-pug-alt:before {
+	content: "\E9D0"
+}
+
+.ef-puppet:before {
+	content: "\F0C3";
+}
+
+.ef-puppet:before,.ef-purebasic:before {
+	font-family: file-icons;
+}
+
+.ef-purebasic:before {
+	content: "\1B5"
+}
+
+.ef-purescript:before {
+	content: "\E9B2"
+}
+
+.ef-purescript:before,.ef-r:before {
+	font-family: file-icons;
+}
+
+.ef-r:before {
+	content: "\E905";
+}
+
+.ef-racket:before {
+	font-family: file-icons;
+	content: "\E9B1";
+}
+
+.ef-raml:before {
+	font-family: file-icons;
+	content: "\E913";
+}
+
+.ef-rascal:before {
+	content: "\EA24"
+}
+
+.ef-rascal:before,.ef-rdoc:before {
+	font-family: file-icons;
+}
+
+.ef-rdoc:before {
+	content: "\E9B0";
+}
+
+.ef-react:before {
+	font-family: file-icons;
+	content: "\F100";
+}
+
+.ef-rebol:before {
+	font-family: file-icons;
+	content: "\E9AE";
+}
+
+.ef-reason:before {
+	content: "\EA1D"
+}
+
+.ef-reason:before,.ef-red:before {
+	font-family: file-icons;
+}
+
+.ef-red:before {
+	content: "\E9AD";
+}
+
+.ef-regex:before {
+	font-family: file-icons;
+	content: "*";
+}
+
+.ef-rexx:before {
+	font-family: file-icons;
+	content: "\EA16";
+}
+
+.ef-riot:before {
+	font-family: file-icons;
+	content: "\E919";
+}
+
+.ef-robot:before {
+	font-family: file-icons;
+	content: "\E9AC";
+}
+
+.ef-rollup:before {
+	font-family: file-icons;
+	content: "\EA20";
+}
+
+.ef-rst:before {
+	content: "\E9CC"
+}
+
+.ef-rst:before,.ef-sage:before {
+	font-family: file-icons;
+}
+
+.ef-sage:before {
+	content: "\E9AB";
+}
+
+.ef-saltstack:before {
+	font-family: file-icons;
+	content: "\E915";
+}
+
+.ef-sas:before {
+	content: "\E95A"
+}
+
+.ef-sas:before,.ef-sbt:before {
+	font-family: file-icons;
+}
+
+.ef-sbt:before {
+	content: "\E9D2";
+}
+
+.ef-scd:before {
+	content: "\E9A2"
+}
+
+.ef-scad:before,.ef-scd:before {
+	font-family: file-icons;
+}
+
+.ef-scad:before {
+	content: "\E911";
+}
+
+.ef-scheme:before {
+	font-family: file-icons;
+	content: "\3BB";
+}
+
+.ef-scilab:before {
+	font-family: file-icons;
+	content: "\E9A9";
+}
+
+.ef-scrutinizer:before {
+	font-family: file-icons;
+	content: "\E9D4";
+}
+
+.ef-self:before {
+	font-family: file-icons;
+	content: "\E9A8";
+}
+
+.ef-sf:before {
+	content: "\E9DB"
+}
+
+.ef-sf:before,.ef-shen:before {
+	font-family: file-icons;
+}
+
+.ef-shen:before {
+	content: "\E9A7";
+}
+
+.ef-shopify:before {
+	content: "\E9CF"
+}
+
+.ef-shopify:before,.ef-shuriken:before {
+	font-family: file-icons;
+}
+
+.ef-shuriken:before {
+	content: "\272B";
+}
+
+.ef-sigils:before {
+	font-family: file-icons;
+	content: "\1F764";
+}
+
+.ef-silverstripe:before {
+	font-family: file-icons;
+	content: "\E800";
+}
+
+.ef-sketch:before {
+	content: "\E927"
+}
+
+.ef-sketch:before,.ef-slash:before {
+	font-family: file-icons;
+}
+
+.ef-slash:before {
+	content: "\E9A6"
+}
+
+.ef-snyk:before {
+	font-family: file-icons;
+	content: "\EA1C";
+}
+
+.ef-sparql:before {
+	content: "\E959";
+}
+
+.ef-sparql:before,.ef-sqf:before {
+	font-family: file-icons;
+}
+
+.ef-sqf:before {
+	content: "\E9A5";
+}
+
+.ef-sqlite:before {
+	font-family: file-icons;
+	content: "\E9DD";
+}
+
+.ef-stan:before {
+	content: "\E9A4"
+}
+
+.ef-stan:before,.ef-stata:before {
+	font-family: file-icons;
+}
+
+.ef-stata:before {
+	content: "\E9A3"
+}
+
+.ef-storyist:before {
+	font-family: file-icons;
+	content: "\E9EF";
+}
+
+.ef-strings:before {
+	content: "\E9E0"
+}
+
+.ef-strings:before,.ef-stylelint:before {
+	font-family: file-icons;
+}
+
+.ef-stylelint:before {
+	content: "\E93D"
+}
+
+.ef-stylus:before {
+	content: "s";
+}
+
+.ef-stylus:before,.ef-sublime:before {
+	font-family: file-icons;
+}
+
+.ef-sublime:before {
+	content: "\E986"
+}
+
+.ef-svn:before {
+	content: "\EA17"
+}
+
+.ef-svn:before,.ef-sysverilog:before {
+	font-family: file-icons;
+}
+
+.ef-sysverilog:before {
+	content: "\E9C3"
+}
+
+.ef-tag:before {
+	font-family: file-icons;
+	content: "\F015";
+}
+
+.ef-tcl:before {
+	font-family: file-icons;
+	content: "\E956";
+}
+
+.ef-terminal:before {
+	font-family: file-icons;
+	content: "\F0C8";
+}
+
+.ef-tern:before {
+	font-family: file-icons;
+	content: "\1F54A";
+}
+
+.ef-terraform:before {
+	font-family: file-icons;
+	content: "\E916";
+}
+
+.ef-tex:before {
+	font-family: file-icons;
+	content: "\E600";
+}
+
+.ef-textile:before {
+	content: "t"
+}
+
+.ef-textile:before,.ef-textmate:before {
+	font-family: file-icons;
+}
+
+.ef-textmate:before {
+	content: "\2122";
+}
+
+.ef-thor:before {
+	font-family: file-icons;
+	content: "\E9D8";
+}
+
+.ef-ts:before {
+	content: "\2A6"
+}
+
+.ef-ts:before,.ef-tsx:before {
+	font-family: file-icons;
+}
+
+.ef-tsx:before {
+	content: "\E9E7"
+}
+
+.ef-turing:before {
+	content: "\E9B6"
+}
+
+.ef-turing:before,.ef-txl:before {
+	font-family: file-icons;
+}
+
+.ef-txl:before {
+	content: "\E9C1"
+}
+
+.ef-typedoc:before {
+	content: "\E9FE"
+}
+
+.ef-typedoc:before,.ef-typings:before {
+	font-family: file-icons;
+}
+
+.ef-typings:before {
+	content: "\E9DF"
+}
+
+.ef-uno:before {
+	content: "\E9B3"
+}
+
+.ef-uno:before,.ef-unreal:before {
+	font-family: file-icons;
+}
+
+.ef-unreal:before {
+	content: "u"
+}
+
+.ef-urweb:before {
+	font-family: file-icons;
+	content: "\E9BA";
+}
+
+.ef-webpack:before {
+	font-family: file-icons;
+	content: "\E91E";
+}
+
+.ef-wercker:before {
+	content: "\EA19"
+}
+
+.ef-wercker:before,.ef-word:before {
+	font-family: file-icons;
+}
+
+.ef-word:before {
+	content: "\E9ED"
+}
+
+.ef-v8:before {
+	font-family: file-icons;
+	content: "\EA1F";
+}
+
+.ef-vagrant:before {
+	content: "V";
+}
+
+.ef-vagrant:before,.ef-varnish:before {
+	font-family: file-icons;
+}
+
+.ef-varnish:before {
+	content: "\E9B4";
+}
+
+.ef-verilog:before {
+	content: "\E949"
+}
+
+.ef-verilog:before,.ef-vhdl:before {
+	font-family: file-icons;
+}
+
+.ef-vhdl:before {
+	content: "\E9AA"
+}
+
+.ef-video:before {
+	font-family: file-icons;
+	content: "\F057";
+}
+
+.ef-vue:before {
+	content: "\E906";
+}
+
+.ef-vue:before,.ef-x10:before {
+	font-family: file-icons;
+}
+
+.ef-x10:before {
+	content: "\2169";
+}
+
+.ef-xmos:before {
+	font-family: file-icons;
+	content: "X";
+}
+
+.ef-xojo:before {
+	content: "\E9AF"
+}
+
+.ef-xojo:before,.ef-xpages:before {
+	font-family: file-icons;
+}
+
+.ef-xpages:before {
+	content: "\E9C5"
+}
+
+.ef-xtend:before {
+	content: "\E9C6"
+}
+
+.ef-xtend:before,.ef-yang:before {
+	font-family: file-icons;
+}
+
+.ef-yang:before {
+	content: "\262F"
+}
+
+.ef-yarn:before {
+	font-family: file-icons;
+	content: "\EA1A";
+}
+
+.ef-yui:before {
+	content: "\EA00"
+}
+
+.ef-yui:before,.ef-zbrush:before {
+	font-family: file-icons;
+}
+
+.ef-zbrush:before {
+	content: "\E9F2";
+}
+
+.ef-zephir:before {
+	content: "\E9C7";
+}
+
+.ef-zephir:before,.ef-zimpl:before {
+	font-family: file-icons;
+}
+
+.ef-zimpl:before {
+	content: "\E9C8";
+}

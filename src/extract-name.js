@@ -2,7 +2,7 @@ var fs = require('fs');
 
 let REG = {
     iconfont: /\.icon-(.*):/g,
-    file: /\.(.*)-icon:/g,
+    file: /\.(.*?)-icon:/g,
     fa: /\.fa-(.*):/g,
     element: /\.el-icon-(.*):/g,
 }

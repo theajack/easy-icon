@@ -71,7 +71,7 @@
     margin: 0;
 }
 
-[class^='ei-']{
+[class*=' ei-'],[class^='ei-']{
     font-size: 16px;
     top: 2px;
     position: relative;
