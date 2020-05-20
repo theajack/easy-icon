@@ -1,5 +1,5 @@
-var css = require('./easy-icon.css.js');
+var css = require('./easy-icon-a.js');
 var common = require('./common.js')
-const ID = 'easyIconStyle';
+const ID = 'easyIconAStyle';
 
 module.exports = common(ID, css);

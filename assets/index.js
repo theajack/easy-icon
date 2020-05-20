@@ -53,23 +53,28 @@
             if (ele.tagName === 'I' || ele.tagName === 'SPAN') {
                 ele = ele.parentNode;
             }
-            location.hash = '#?name='+ele.children[1].innerText
-            renderIcon(ele.children[1].innerText)
+            let className = ele.children[0].className
+            location.hash = '#?name='+className
+            renderIcon(className)
         }
+        let timer = null;
         id('searchInput').oninput = function(){
-            var value = this.value;
-            var list = id('iconList').children;
-            var has = false;
-            for(var i=0;i<list.length;i++){
-                if(list[i].children[0].className.substring(3).indexOf(value)!==-1){
-                    list[i].style.display = 'inline';
-                    has = true;
-                }else{
-                    list[i].style.display = 'none';
+            clearTimeout(timer);
+            timer = setTimeout(()=>{
+                var value = this.value;
+                var list = id('iconList').getElementsByTagName('li');
+                var has = false;
+                for(var i=0;i<list.length;i++){
+                    if(list[i].children[0].className.substring(3).indexOf(value)!==-1){
+                        list[i].style.display = 'inline';
+                        has = true;
+                    }else{
+                        list[i].style.display = 'none';
+                    }
                 }
-            }
-            id('no-icon').style.display = has?'none':'block';
-            id('iconList').style.display = has?'block':'none';
+                id('no-icon').style.display = has?'none':'block';
+                id('iconList').style.display = has?'block':'none';
+            },500)
         }
     }
     function getUrlParam() {
@@ -92,11 +97,11 @@
         }
     };
     function renderIcon(name) {
-        id('icons').innerHTML = '<i class="ei-' + name + '"></i>\
-        <i class="ei-'+ name + ' icon-middle"></i>\
-        <i class="ei-'+ name + ' icon-large"></i>\
-        <i class="ei-'+ name + ' icon-slarge"></i>'
-        id('fullHtmlInput').value = '<i class="ei-' + name + '"></i>'
+        id('icons').innerHTML = '<i class="' + name + '"></i>\
+        <i class="'+ name + ' icon-middle"></i>\
+        <i class="'+ name + ' icon-large"></i>\
+        <i class="'+ name + ' icon-slarge"></i>'
+        id('fullHtmlInput').value = '<i class="' + name + '"></i>'
     }
     document.addEventListener('DOMContentLoaded', function () {
         main();
@@ -104,7 +109,21 @@
         if(param && param.name){
             renderIcon(param.name);
         }else{
-            renderIcon('resize');
+            renderIcon('ei-resize');
         }
     }, false)
+    let scrolltimer = null;
+    window.onscroll = function(){
+        if(scrolltimer === null){
+            scrolltimer = setTimeout(function(){
+                console.log(111)
+                document.body.className = (getScrollTop() > 150)?'mini':''
+                clearTimeout(scrolltimer)
+                scrolltimer = null
+            },300)
+        }
+    }
+    function getScrollTop(){
+        return Math.max(document.documentElement.scrollTop, document.body.scrollTop);
+    }
 })(window)
