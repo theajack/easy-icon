@@ -431,7 +431,7 @@ a .ei-spin {
 	content: '\E615'
 }
 
-.et-ic_msg_success:before {
+.et-ic-msg-success:before {
 	content: '\E616'
 }
 
@@ -575,7 +575,7 @@ a .ei-spin {
 	content: '\E683'
 }
 
-.et-ic_more-arrow:before {
+.et-ic-more-arrow:before {
 	content: '\E684'
 }
 
@@ -619,7 +619,7 @@ a .ei-spin {
 	content: '\E68E'
 }
 
-.et-logo_csdn:before {
+.et-logo-csdn:before {
 	content: '\E67B'
 }
 
@@ -723,19 +723,19 @@ a .ei-spin {
 	content: '\E619'
 }
 
-.et-small_like:before {
+.et-small-like:before {
 	content: '\E625'
 }
 
-.et-zhengwenpinglun_shanchuicon:before {
+.et-delete2:before {
 	content: '\E626'
 }
 
-.et-zhengwenpinglun_pinglunkuangicon:before {
+.et-comment2:before {
 	content: '\E627'
 }
 
-.et-Group:before {
+.et-group:before {
 	content: '\E628'
 }
 
@@ -751,7 +751,7 @@ a .ei-spin {
 	content: '\E6A9'
 }
 
-.et-logo_wechat:before {
+.et-logo-wechat:before {
 	content: '\E6AA'
 }
 
@@ -939,7 +939,7 @@ a .ei-spin {
 	content: '\E6D4'
 }
 
-.et-logo_aliyun:before {
+.et-logo-aliyun:before {
 	content: '\E6D5'
 }
 

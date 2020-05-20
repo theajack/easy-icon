@@ -802,15 +802,15 @@ a .ei-spin {
 	content: '\E67A'
 }
 
-.ef-_1c:before {
+.ef-1c:before {
 	content: '\A5EA'
 }
 
-.ef-_1c-alt:before,.ef-_1c:before {
+.ef-1c-alt:before,.ef-1c:before {
 	font-family: file-icons;
 }
 
-.ef-_1c-alt:before {
+.ef-1c-alt:before {
 	content: '\EA28'
 }
 
