@@ -4,7 +4,9 @@
   "description": "![Easy-ICON](https://github.com/theajack/easy-icon/blob/master/assets/images/logo-black.png?raw=true)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./src/minify-css.js",
+    "publish": "npm publish npm"
   },
   "repository": {
     "type": "git",
