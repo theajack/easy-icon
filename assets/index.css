@@ -88,6 +88,9 @@
     border-radius: 3px;
     transition: all .3s;
     padding: 7px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 #iconsExample ul li:hover {
