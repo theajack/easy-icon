@@ -116,7 +116,6 @@
     window.onscroll = function(){
         if(scrolltimer === null){
             scrolltimer = setTimeout(function(){
-                console.log(111)
                 document.body.className = (getScrollTop() > 150)?'mini':''
                 clearTimeout(scrolltimer)
                 scrolltimer = null

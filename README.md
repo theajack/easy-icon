@@ -60,6 +60,12 @@ import 'easy-icon/easy-icon-t.js';
 import 'easy-icon/easy-icon-l.js';
 ```
 
+Or use a collection version
+
+```js
+import 'easy-icon/easy-icon-all.js';
+```
+
 #### 2.3 Useage
 
 It's very easy to use, you just need to insert the tag anywhere:

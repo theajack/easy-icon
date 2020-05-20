@@ -60,21 +60,47 @@
         <div class="doc-title">如何使用?</div>
         <div class='doc-title-s'>1.安装</div>
         <div class='doc-text'>a.使用css文件引用:(推荐下载到本地然后引用本地文件)</div>
-        <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon.min.css"></pre> 
+        <div class='doc-text'>easy-icon 共分为了五个模块，可以独立单独引用</div>
+        <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon.css"></pre> 
+        <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-a.css"></pre> 
+        <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-f.css"></pre> 
+        <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-t.css"></pre> 
+        <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-l.css"></pre> 
+        <div class='doc-text'>集合版本</div>
+        <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-all.css"></pre> 
         <div class='doc-text'>b.使用npm方式安装:</div>
         <pre class='demo-code'>npm i easy-icon</pre>
         <div class='doc-text'>您只需要引用一次即可:</div>
+        <div class='doc-text'>与css文件引用一样，可以模块独立引用，无需使用全部</div>
         <pre class='demo-code'>import 'easy-icon'</pre>
+        <pre class='demo-code'>import 'easy-icon/easy-icon-a.js'</pre>
+        <pre class='demo-code'>import 'easy-icon/easy-icon-f.js'</pre>
+        <pre class='demo-code'>import 'easy-icon/easy-icon-t.js'</pre>
+        <pre class='demo-code'>import 'easy-icon/easy-icon-l.js'</pre>
+        <div class='doc-text'>或者使用集合版本</div>
+        <pre class='demo-code'>import 'easy-icon/easy-icon-all.js'</pre>
+        
         <div class='doc-title-s'>2.使用</div>
         <div class='doc-text'>Easy ICON使用起来十分简单，您只需要在您想要使用的地方插入一个如下的标签即可:</div>
         <pre class='demo-code'>&lt;i class="ei-smile">&lt;/i></pre>
         <div class='doc-text'>然后您就可以看到一个可爱的图标: <i class="ei-smile"></i></div>
+
+        <div class='doc-text'>需要注意的是，五个模块对应的前缀不一样，分别为</div>
+        <ul>
+            <li>easy-icon: ei-</li>
+            <li>easy-icon-a: ea-</li>
+            <li>easy-icon-f: ef-</li>
+            <li>easy-icon-t: et-</li>
+            <li>easy-icon-l: el-</li>
+        </ul>
+
     </div>
     <div id='spinBlock'>
         <div class="doc-title">让图标旋转!</div>
         <div class='doc-text'>您可以通过添加 <span class="red">ei-spin</span> 类来使图标旋转:</div>
         <pre class='demo-code'>&lt;i class="ei-spinner-snake ei-spin">&lt;/i></pre>
         <div class='doc-text'>效果: <i class="ei-spinner-snake ei-spin"></i></div>
+        <div class='doc-text'>ei-spin 类对五个模块表现一致</div>
     </div>
     <div id='sizeBlock'>
         <div class="doc-title">选择尺寸</div>
@@ -93,6 +119,7 @@
 </pre>
         <div class='doc-text'>效果: <i class="ei-smile ei-xs"></i><i class="ei-smile ei-s"></i><i class="ei-smile ei-l"></i><i class="ei-smile ei-xl"></i><i class="ei-smile ei-2x"></i><i class="ei-smile ei-3x"></i><i class="ei-smile ei-4x"></i><i class="ei-smile ei-5x"></i></div>
         <div class='doc-text'>当然，您可以使用任何自定义css样式来覆盖默认的样式.</div>
+        <div class='doc-text'>尺寸类对五个模块表现一致</div>
     </div>
     <div id="footer" class="bg-black text-white part">
         <div id="footerLink">
