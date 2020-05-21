@@ -84,18 +84,18 @@ It should be noted that the prefixes corresponding to the five modules are diffe
 
 [See which icons you can use](https://theajack.gitee.io/easy-icon/)
 
-![Easy-ICON](https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons1.png)
+<img src="https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons1.png" alt="Easy-ICON" style="max-width:100%;">
 
 <details>
     <summary>Expand all icons</summary>
 
-![Easy-ICON](https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons2.png)
+<img src="https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons2.png" alt="Easy-ICON" style="max-width:100%;">
 
-![Easy-ICON](https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons3.png)
+<img src="https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons3.png" alt="Easy-ICON" style="max-width:100%;">
 
-![Easy-ICON](https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons4.png)
+<img src="https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons4.png" alt="Easy-ICON" style="max-width:100%;">
 
-![Easy-ICON](https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons5.png)
+<img src="https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons5.png" alt="Easy-ICON" style="max-width:100%;">
 
 </details>
 

@@ -85,18 +85,18 @@ Easy ICON使用起来十分简单，您只需要在您想要使用的地方插�
 
 [查看可用的图标](https://theajack.gitee.io/easy-icon/)
 
-![Easy-ICON](https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons1.png)
+<img src="https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons1.png" alt="Easy-ICON" style="max-width:100%;">
 
 <details>
     <summary>展开全部图标</summary>
 
-![Easy-ICON](https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons2.png)
+<img src="https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons2.png" alt="Easy-ICON" style="max-width:100%;">
 
-![Easy-ICON](https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons3.png)
+<img src="https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons3.png" alt="Easy-ICON" style="max-width:100%;">
 
-![Easy-ICON](https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons4.png)
+<img src="https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons4.png" alt="Easy-ICON" style="max-width:100%;">
 
-![Easy-ICON](https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons5.png)
+<img src="https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons5.png" alt="Easy-ICON" style="max-width:100%;">
 
 </details>
 
