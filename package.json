@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ./src/minify-css.js",
+    "build": "node src/minify-css.js",
     "publish": "npm publish npm"
   },
   "repository": {

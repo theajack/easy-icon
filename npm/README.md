@@ -1,9 +1,17 @@
-![Easy-ICON](https://github.com/theajack/easy-icon/blob/master/assets/images/logo-black.png?raw=true)
+<img src="https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/logo-black.png" alt="Easy-ICON" style="max-width:100%;">
 
-#### [theajack](https://www.theajack.com/)
-### A Easy to Use Web Font ICON lib
+<p>
+    <a href="https://www.npmjs.com/package/easy-icon"><img src="https://img.shields.io/npm/v/easy-icon.svg" alt="Version"></a>
+    <a href="https://npmcharts.com/compare/easy-icon?minimal=true"><img src="https://img.shields.io/npm/dm/easy-icon.svg" alt="Downloads"></a>
+    <a href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon.latest.min.js"><img src="https://img.shields.io/bundlephobia/minzip/easy-icon.svg" alt="Size"></a>
+    <a href="https://github.com/theajack/easy-icon/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/easy-icon.svg" alt="License"></a>
+    <a href="https://github.com/theajack/easy-icon/search?l=javascript"><img src="https://img.shields.io/github/languages/top/theajack/easy-icon.svg" alt="TopLang"></a>
+    <a href="https://github.com/theajack/easy-icon/issues"><img src="https://img.shields.io/github/issues-closed/theajack/easy-icon.svg" alt="issue"></a>
+</p>
 
-**[Online trial](https://theajack.gitee.io/easy-icon/) | [中文](https://github.com/theajack/easy-icon/blob/master/README_CN.md)**
+### 🚀 A beautiful, easy-to-use web font icon library
+
+**[Online trial](https://theajack.gitee.io/easy-icon/) | [Github](https://github.com/theajack/easy-icon) | [Gitee](https://gitee.com/theajack/easy-icon) | [中文](https://github.com/theajack/easy-icon/blob/master/README_CN.md)**
 
 ----
 
@@ -11,14 +19,45 @@
 
 ----
 
-### 1.Why Easy-ICON
+### 0. Quick start
+
+Easy-ICON is a high-value, easy-to-use web font icon library, you only need to introduce a css file (or an npm package), you can simply use more than 1,000 beautiful icons
+
+The following is a simple example introduced by the css file
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-all.css">
+</head>
+<body>
+    <i class="ei-heart ei-xs" style="color: red;"></i>
+    <i class="ei-spinner-indicator ei-spin"></i> <!--A rotating loading-->
+    <i class="ea-star-half-empty"></i>
+    <i class="et-like ei-l"></i>
+    <i class="ef-html5 ei-xl"></i>
+    <i class="el-goods ei-4x"></i>
+</body>
+</html>
+```
+
+Effect picture:
+
+<img src="https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/samples.png" alt="Easy-ICON" style="max-width:100%;">
+
+[**😃 Experience 1583 icons online**](https://theajack.gitee.io/easy-icon)
+
+### 1. Introduction
 
 Easy-ICON is a easy to use web font icon lib
 
 Easy-ICON uses multiple icon libraries, such as Font-Awesome, to thank the original author for their contributions!
 
+Features:
+
 1. Very simple to use
-2. Thousands of commonly used font icons, including multiple font libraries
+2. 1583 commonly used font icons, including multiple font libraries
 3. Customize any css style, the zoom is not blurred
 4. Use according to module
 
@@ -84,18 +123,18 @@ It should be noted that the prefixes corresponding to the five modules are diffe
 
 [See which icons you can use](https://theajack.gitee.io/easy-icon/)
 
-![Easy-ICON](https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons1.png)
+<img src="https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons1.png" alt="Easy-ICON" style="max-width:100%;">
 
 <details>
     <summary>Expand all icons</summary>
 
-![Easy-ICON](https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons2.png)
+<img src="https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons2.png" alt="Easy-ICON" style="max-width:100%;">
 
-![Easy-ICON](https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons3.png)
+<img src="https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons3.png" alt="Easy-ICON" style="max-width:100%;">
 
-![Easy-ICON](https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons4.png)
+<img src="https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons4.png" alt="Easy-ICON" style="max-width:100%;">
 
-![Easy-ICON](https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons5.png)
+<img src="https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/icons5.png" alt="Easy-ICON" style="max-width:100%;">
 
 </details>
 
@@ -123,5 +162,3 @@ The size class performs the same for the five modules
 ```
 
 Of course, you can use css to customize any style.
-
-

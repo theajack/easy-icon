@@ -19,14 +19,45 @@
 
 ----
 
-### 1.Why Easy-ICON
+### 0. Quick start
+
+Easy-ICON is a high-value, easy-to-use web font icon library, you only need to introduce a css file (or an npm package), you can simply use more than 1,000 beautiful icons
+
+The following is a simple example introduced by the css file
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-all.css">
+</head>
+<body>
+    <i class="ei-heart ei-xs" style="color: red;"></i>
+    <i class="ei-spinner-indicator ei-spin"></i> <!--A rotating loading-->
+    <i class="ea-star-half-empty"></i>
+    <i class="et-like ei-l"></i>
+    <i class="ef-html5 ei-xl"></i>
+    <i class="el-goods ei-4x"></i>
+</body>
+</html>
+```
+
+Effect picture:
+
+<img src="https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/samples.png" alt="Easy-ICON" style="max-width:100%;">
+
+[**😃 Experience 1583 icons online**](https://theajack.gitee.io/easy-icon)
+
+### 1. Introduction
 
 Easy-ICON is a easy to use web font icon lib
 
 Easy-ICON uses multiple icon libraries, such as Font-Awesome, to thank the original author for their contributions!
 
+Features:
+
 1. Very simple to use
-2. Thousands of commonly used font icons, including multiple font libraries
+2. 1583 commonly used font icons, including multiple font libraries
 3. Customize any css style, the zoom is not blurred
 4. Use according to module
 

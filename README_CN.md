@@ -19,14 +19,45 @@
 
 ----
 
-### 1.Easy-ICON
+### 0. 快速开始
+
+Easy-ICON 是一款高颜值、简单易用的web字体图标库，只需引入一个css文件（或一个npm包），您就可以简单地使用1000多个漂亮的图标
+
+以下是css文件引入的一个简单例子
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-all.css">
+</head>
+<body>
+    <i class="ei-heart ei-xs" style="color: red;"></i>
+    <i class="ei-spinner-indicator ei-spin"></i> <!--一个旋转的loading-->
+    <i class="ea-star-half-empty"></i>
+    <i class="et-like ei-l"></i>
+    <i class="ef-html5 ei-xl"></i>
+    <i class="el-goods ei-4x"></i>
+</body>
+</html>
+```
+
+效果图：
+
+<img src="https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/samples.png" alt="Easy-ICON" style="max-width:100%;">
+
+[**😃 在线体验1583个图标**](https://theajack.gitee.io/easy-icon) 
+
+### 1. 介绍
 
 Easy-ICON 是一个简单易用的icon字体库
 
 Easy-ICON 使用 Font-Awesome 等多个图标库, 对原作者做出的贡献表示感谢!
 
+特性：
+
 1. 使用非常简单
-2. 上千个常用的字体图标，包含多个字体图库
+2. 1583个常用的字体图标，来自多个字体图库
 3. 自定义任意css样式，缩放不模糊
 4. 按模块部分使用
    
