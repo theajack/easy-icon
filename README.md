@@ -1,9 +1,17 @@
-![Easy-ICON](https://github.com/theajack/easy-icon/blob/master/assets/images/logo-black.png?raw=true)
+<img src="https://cdn.jsdelivr.net/gh/theajack/easy-icon/assets/images/logo-black.png" alt="Easy-ICON" style="max-width:100%;">
 
-#### [theajack](https://www.theajack.com/)
-### A Easy to Use Web Font ICON lib
+<p>
+    <a href="https://www.npmjs.com/package/easy-icon"><img src="https://img.shields.io/npm/v/easy-icon.svg" alt="Version"></a>
+    <a href="https://npmcharts.com/compare/easy-icon?minimal=true"><img src="https://img.shields.io/npm/dm/easy-icon.svg" alt="Downloads"></a>
+    <a href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon.latest.min.js"><img src="https://img.shields.io/bundlephobia/minzip/easy-icon.svg" alt="Size"></a>
+    <a href="https://github.com/theajack/easy-icon/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/easy-icon.svg" alt="License"></a>
+    <a href="https://github.com/theajack/easy-icon/search?l=javascript"><img src="https://img.shields.io/github/languages/top/theajack/easy-icon.svg" alt="TopLang"></a>
+    <a href="https://github.com/theajack/easy-icon/issues"><img src="https://img.shields.io/github/issues-closed/theajack/easy-icon.svg" alt="issue"></a>
+</p>
 
-**[Online trial](https://theajack.gitee.io/easy-icon/) | [中文](https://github.com/theajack/easy-icon/blob/master/README_CN.md)**
+### 🚀 A beautiful, easy-to-use web font icon library
+
+**[Online trial](https://theajack.gitee.io/easy-icon/) | [Github](https://github.com/theajack/easy-icon) | [Gitee](https://gitee.com/theajack/easy-icon) | [中文](https://github.com/theajack/easy-icon/blob/master/README_CN.md)**
 
 ----
 
