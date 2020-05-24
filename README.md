@@ -77,11 +77,11 @@ Easy-icon is divided into five modules, which can be referenced independently
 
 Or use a collection version
 
-#### 2.2 OR Use npm:
-
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-all.css">
 ```
+
+#### 2.2 OR Use npm:
 
 ```
 npm i easy-icon;

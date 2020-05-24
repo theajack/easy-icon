@@ -81,7 +81,6 @@ easy-icon 共分为了五个模块，可以独立单独引用
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-all.css">
 ```
 
-
 #### 2.2 或者使用npm安装:
 
 ```
