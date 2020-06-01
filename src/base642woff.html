@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <textarea name="" id="base64" cols="30" rows="10"></textarea>
+    <div>
+        <button onclick='download()'>download</button>
+    </div>
+    <script>
+        function download() {
+            // base64字串转换成blob格式 
+            var base64 = document.getElementById('base64').value;
+            var blob = dataURLtoBlob('data:application/x-font-woff;charset=utf-8;base64,' + base64);
+
+            // 把blob格式转换成文件 
+            var file = blobToFile(blob, 'imgName');
+
+            var a = document.getElementById('downloadA');
+            if(!a){
+                a = document.createElement('a')
+                a.setAttribute('download', 'font.woff');
+                a.style.position = 'fixed';
+                a.style.top = '-100px'
+                document.body.append('a');
+            }
+            a.setAttribute('href', URL.createObjectURL(file));
+            a.click();
+        }
+        function dataURLtoBlob(dataurl) {
+            var arr = dataurl.split(','),
+            mime = arr[0].match(/:(.*?);/)[1],
+            bstr = atob(arr[1]),
+            n = bstr.length,
+            u8arr = new Uint8Array(n);
+            while (n--) {
+                u8arr[n] = bstr.charCodeAt(n);
+            }
+            return new Blob([u8arr], {type: mime});
+        }; 
+        function blobToFile(theBlob, fileName) {
+     theBlob.lastModifiedDate = new Date();
+     theBlob.name = fileName;
+     return theBlob; 
+}; 
+    </script>
+</body>
+
+</html>

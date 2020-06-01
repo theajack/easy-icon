@@ -67,6 +67,10 @@ Easy-ICON 使用 Font-Awesome 等多个图标库, 对原作者做出的贡献表
 
 easy-icon 共分为了五个模块，可以独立单独引用
 
+##### 2.1.1 在线模式
+
+在线模式依赖网络上的字体库，而离线模式将字体库转换成base64，从而可以离线使用
+
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-a.css">
@@ -81,6 +85,22 @@ easy-icon 共分为了五个模块，可以独立单独引用
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-all.css">
 ```
 
+##### 2.1.2 离线模式
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon.o.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-a.o.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-f.o.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-t.o.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-l.o.css">
+```
+
+或者使用一个集合的版本
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-all.o.css">
+```
+
 #### 2.2 或者使用npm安装:
 
 ```
@@ -90,6 +110,8 @@ npm i easy-icon;
 您只需要引用一次即可:
 
 与css文件引用一样，可以模块独立引用，无需使用全部
+
+##### 2.2.1 在线模式
 
 ```js
 import 'easy-icon';
@@ -103,6 +125,22 @@ import 'easy-icon/easy-icon-l.js';
 
 ```js
 import 'easy-icon/easy-icon-all.js';
+```
+
+##### 2.2.2 离线模式
+
+```js
+import 'easy-icon/offline';
+import 'easy-icon/offline/easy-icon-a.js';
+import 'easy-icon/offline/easy-icon-f.js';
+import 'easy-icon/offline/easy-icon-t.js';
+import 'easy-icon/offline/easy-icon-l.js';
+```
+
+或者使用集合版本
+
+```js
+import 'easy-icon/offline/easy-icon-all.js';
 ```
 
 #### 2.3 使用

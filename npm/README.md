@@ -67,6 +67,10 @@ Features:
 
 Easy-icon is divided into five modules, which can be referenced independently
 
+##### 2.1.1 Online Mode
+
+The online mode relies on the font library on the network, while the offline mode converts the font library to base64 so that it can be used offline
+
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-a.css">
@@ -77,11 +81,27 @@ Easy-icon is divided into five modules, which can be referenced independently
 
 Or use a collection version
 
-#### 2.2 OR Use npm:
-
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-all.css">
 ```
+
+##### 2.1.2 Offline Mode
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon.o.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-a.o.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-f.o.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-t.o.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-l.o.css">
+```
+
+Or use a collection version
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-all.o.css">
+```
+
+#### 2.2 OR Use npm:
 
 ```
 npm i easy-icon;
@@ -90,6 +110,8 @@ npm i easy-icon;
 You only need to import once:
 
 Same as css file reference, can be referenced independently by module, without using all
+
+##### 2.2.1 Online Mode
 
 ```js
 import 'easy-icon';
@@ -103,6 +125,22 @@ Or use a collection version
 
 ```js
 import 'easy-icon/easy-icon-all.js';
+```
+
+##### 2.2.2 Offline Mode
+
+```js
+import 'easy-icon/offline';
+import 'easy-icon/offline/easy-icon-a.js';
+import 'easy-icon/offline/easy-icon-f.js';
+import 'easy-icon/offline/easy-icon-t.js';
+import 'easy-icon/offline/easy-icon-l.js';
+```
+
+Or use a collection version
+
+```js
+import 'easy-icon/offline/easy-icon-all.js';
 ```
 
 #### 2.3 Useage
@@ -162,3 +200,5 @@ The size class performs the same for the five modules
 ```
 
 Of course, you can use css to customize any style.
+
+
