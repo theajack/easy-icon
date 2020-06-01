@@ -54,11 +54,11 @@
             <!-- xxx -->
         </ul>
     </div>
-    <div id="no-icon" style="display: block;">Easy-ICON is powered by Font-Awesome, thanks a lot!</div>
+    <div id="no-icon" style="display: block;">Easy-ICON is powered by Font-Awesome etc, thanks a lot!</div>
     <div id='useBlock'>
         <div class="doc-title">How To Use?</div>
-        <div class='doc-title-s'>1.Install</div>
-        <div class='doc-text'>a.Use css file reference:(Recommended to download to local and then reference local files)</div>
+        <div class='doc-title-s'>1. Install</div>
+        <div class='doc-title-ss'>a.Use css file reference:(Recommended to download to local and then reference local files)</div>
         <div class='doc-text'>Easy-icon is divided into five modules, which can be referenced independently</div>
         <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon.css"></pre> 
         <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-a.css"></pre> 
@@ -67,8 +67,7 @@
         <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-l.css"></pre> 
         <div class='doc-text'>Or use a collection version</div>
         <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-all.css"></pre> 
-        <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon.min.css"></pre> 
-        <div class='doc-text'>b.Install using npm:</div>
+        <div class='doc-title-ss'>b.Install using npm:</div>
         <pre class='demo-code'>npm i easy-icon</pre>
         <div class='doc-text'>You only need to import once:</div>
         <div class='doc-text'>Same as css file reference, can be referenced independently by module, without using all</div>
@@ -79,7 +78,7 @@
         <pre class='demo-code'>import 'easy-icon/easy-icon-l.js'</pre>
         <div class='doc-text'>Or use a collection version</div>
         <pre class='demo-code'>import 'easy-icon/easy-icon-all.js'</pre>
-        <div class='doc-title-s'>2.Useage</div>
+        <div class='doc-title-s'>2. Useage</div>
         <div class='doc-text'>It's very easy to use, you just need to insert the tag anywhere:</div>
         <pre class='demo-code'>&lt;i class="ei-smile">&lt;/i></pre>
         <div class='doc-text'>Then you will see a lovely icon like this: <i class="ei-smile"></i></div>
@@ -91,14 +90,61 @@
             <li>easy-icon-t: et-</li>
             <li>easy-icon-l: el-</li>
         </ul>
+        
+        <div class='doc-title-s'>3. Offline mode</div>
+        <div class='doc-text'>The offline mode converts the font library to base64 so that it can be used offline. The citation method is the same as the online mode, but the files are different</div>
+        
+        <div class='doc-title-ss'>a.css file reference</div>
+        <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon.o.css">
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-a.o.css">
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-f.o.css">
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-t.o.css">
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-l.o.css"></pre> 
+        <div class='doc-text'>Collection version</div>
+        <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-all.o.css"></pre> 
+        
+        <div class='doc-title-ss'>b.Install using npm:</div>
+
+        <pre class='demo-code'>import 'easy-icon/offline'
+import 'easy-icon/offline/easy-icon-a.js'
+import 'easy-icon/offline/easy-icon-f.js'
+import 'easy-icon/offline/easy-icon-t.js'
+import 'easy-icon/offline/easy-icon-l.js'</pre>
+        <div class='doc-text'>Or use the collection version</div>
+        <pre class='demo-code'>import 'easy-icon/offline/easy-icon-all.js'</pre>
     </div>
     <div id='spinBlock'>
         <div class="doc-title">Spin the icon!</div>
+        <div class="doc-title-s">1. Spin</div>
         <div class='doc-text'>You can add the <span class="red">ei-spin</span> class to spin the icon:</div>
         <pre class='demo-code'>&lt;i class="ei-spinner-snake ei-spin">&lt;/i></pre>
         <div class='doc-text'>The effect is like this: <i class="ei-spinner-snake ei-spin"></i></div>
         <div class='doc-text'>The ei-spin class behaves consistently for the five modules</div>
+
+        <div class="doc-title-s">2. Flip</div>
+        
+        <div class='doc-text'>Use <span class="red"> ei-flip-horizontal </span> to flip the icon 180 degrees around the vertical axis:</div>
+        <pre class='demo-code'>&lt;i class="ei-thumbs-o-up ei-flip-horizontal">&lt;/i></pre>
+        <div class='doc-text'>Effect: Before flipping:<i class="ei-thumbs-o-up"></i> After flipping:<i class="ei-thumbs-o-up ei-flip-horizontal"></i></div>
+        <br>
+        <div class='doc-text'>Use <span class="red"> ei-flip-vertical </span> to flip the icon 180 degrees around the horizontal axis:</div>
+        <pre class='demo-code'>&lt;i class="ei-thumbs-o-up ei-flip-vertical">&lt;/i></pre>
+        <div class='doc-text'>Effect: Before flipping: <i class="ei-thumbs-o-up"></i> After flipping:<i class="ei-thumbs-o-up ei-flip-vertical"></i></div>
+
+        <div class="doc-title-s">3. Rotate</div>
+        <div class='doc-text'>Use <span class="red">ei-rotate-90</span>、<span class="red">ei-rotate-180</span>、<span class="red">ei-rotate-270</span> to rotate the icon clockwise by 90, 180, and 270 degrees, respectively:</div>
+        <pre class='demo-code'>&lt;i class="ei-smile">&lt;/i>
+&lt;i class="ei-smile ei-rotate-90">&lt;/i>
+&lt;i class="ei-smile ei-rotate-180">&lt;/i>
+&lt;i class="ei-smile ei-rotate-270">&lt;/i></pre>
+        <div class='doc-text'>Effect:
+            <i class="ei-smile"></i>
+            <i class="ei-smile ei-rotate-90"></i>
+            <i class="ei-smile ei-rotate-180"></i>
+            <i class="ei-smile ei-rotate-270"></i>
+        </div>
     </div>
+
     <div id='sizeBlock'>
         <div class="doc-title">Choose size</div>
         <div class='doc-text'>
@@ -130,7 +176,7 @@
             <a href='https://www.theajack.com' target="blank"><span class="link d-hide">theajack.com</span></a>
         </div>
         <div id="copyright">
-            &copy; <span id="_year">2019</span> TheaJack All rights
+            &copy; <span id="_year">2020</span> TheaJack All rights
             reserved
         </div>
     </div>

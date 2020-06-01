@@ -201,4 +201,26 @@ Easy ICON 内置了八种不同大小的尺寸，从小到大依次为::xs,s,l,l
 
 当然，您可以使用任何自定义css样式来覆盖默认的样式.
 
+#### 3.3 翻转
 
+使用 `ei-flip-horizontal` 可以使图标绕竖直轴翻转180度
+
+```html
+<i class="ei-thumbs-o-up ei-flip-horizontal"></i>
+```
+
+使用 `ei-flip-vertical` 可以使图标绕水平轴翻转180度
+
+```html
+<i class="ei-thumbs-o-up ei-flip-vertical"></i>
+```
+
+#### 3.4 旋转
+
+使用 `ei-rotate-90`,`ei-rotate-180`,`ei-rotate-270` 分别可以使图标按顺时针方向旋转 90、180、270度
+
+```html
+<i class="ei-smile ei-rotate-90"></i>
+<i class="ei-smile ei-rotate-180"></i>
+<i class="ei-smile ei-rotate-270"></i>
+```

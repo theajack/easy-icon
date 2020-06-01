@@ -58,29 +58,29 @@
     <div id="no-icon" style="display: block;">Easy-ICON 使用 Font-Awesome 图标库, 对原作者做出的贡献表示感谢!</div>
     <div id='useBlock'>
         <div class="doc-title">如何使用?</div>
-        <div class='doc-title-s'>1.安装</div>
-        <div class='doc-text'>a.使用css文件引用:(推荐下载到本地然后引用本地文件)</div>
+        <div class='doc-title-s'>1. 安装</div>
+        <div class='doc-title-ss'>a.使用css文件引用:(推荐下载到本地然后引用本地文件)</div>
         <div class='doc-text'>easy-icon 共分为了五个模块，可以独立单独引用</div>
-        <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon.css"></pre> 
-        <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-a.css"></pre> 
-        <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-f.css"></pre> 
-        <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-t.css"></pre> 
-        <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-l.css"></pre> 
+        <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon.css">
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-a.css">
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-f.css">
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-t.css">
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-l.css"></pre> 
         <div class='doc-text'>集合版本</div>
         <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-all.css"></pre> 
-        <div class='doc-text'>b.使用npm方式安装:</div>
+        <div class='doc-title-ss'>b.使用npm方式安装:</div>
         <pre class='demo-code'>npm i easy-icon</pre>
         <div class='doc-text'>您只需要引用一次即可:</div>
         <div class='doc-text'>与css文件引用一样，可以模块独立引用，无需使用全部</div>
-        <pre class='demo-code'>import 'easy-icon'</pre>
-        <pre class='demo-code'>import 'easy-icon/easy-icon-a.js'</pre>
-        <pre class='demo-code'>import 'easy-icon/easy-icon-f.js'</pre>
-        <pre class='demo-code'>import 'easy-icon/easy-icon-t.js'</pre>
-        <pre class='demo-code'>import 'easy-icon/easy-icon-l.js'</pre>
+        <pre class='demo-code'>import 'easy-icon'
+import 'easy-icon/easy-icon-a.js'
+import 'easy-icon/easy-icon-f.js'
+import 'easy-icon/easy-icon-t.js'
+import 'easy-icon/easy-icon-l.js'</pre>
         <div class='doc-text'>或者使用集合版本</div>
         <pre class='demo-code'>import 'easy-icon/easy-icon-all.js'</pre>
         
-        <div class='doc-title-s'>2.使用</div>
+        <div class='doc-title-s'>2. 使用</div>
         <div class='doc-text'>Easy ICON使用起来十分简单，您只需要在您想要使用的地方插入一个如下的标签即可:</div>
         <pre class='demo-code'>&lt;i class="ei-smile">&lt;/i></pre>
         <div class='doc-text'>然后您就可以看到一个可爱的图标: <i class="ei-smile"></i></div>
@@ -94,13 +94,58 @@
             <li>easy-icon-l: el-</li>
         </ul>
 
+        <div class='doc-title-s'>3. 离线模式</div>
+        <div class='doc-text'>离线模式将字体库转换成base64，从而可以离线使用。引用方式与在线模式一样，只不过文件不同</div>
+        
+        <div class='doc-title-ss'>a.css文件引用</div>
+        <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon.o.css">
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-a.o.css">
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-f.o.css">
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-t.o.css">
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-l.o.css"></pre> 
+        <div class='doc-text'>集合版本</div>
+        <pre class='demo-code'>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theajack/easy-icon/dist/easy-icon-all.o.css"></pre> 
+        
+        <div class='doc-title-ss'>b.使用npm方式安装:</div>
+
+        <pre class='demo-code'>import 'easy-icon/offline'
+import 'easy-icon/offline/easy-icon-a.js'
+import 'easy-icon/offline/easy-icon-f.js'
+import 'easy-icon/offline/easy-icon-t.js'
+import 'easy-icon/offline/easy-icon-l.js'</pre>
+        <div class='doc-text'>或者使用集合版本</div>
+        <pre class='demo-code'>import 'easy-icon/offline/easy-icon-all.js'</pre>
     </div>
     <div id='spinBlock'>
         <div class="doc-title">让图标旋转!</div>
+        <div class="doc-title-s">1. 旋转动画</div>
         <div class='doc-text'>您可以通过添加 <span class="red">ei-spin</span> 类来使图标旋转:</div>
         <pre class='demo-code'>&lt;i class="ei-spinner-snake ei-spin">&lt;/i></pre>
         <div class='doc-text'>效果: <i class="ei-spinner-snake ei-spin"></i></div>
         <div class='doc-text'>ei-spin 类对五个模块表现一致</div>
+
+        <div class="doc-title-s">2. 翻转</div>
+        
+        <div class='doc-text'>使用 <span class="red">ei-flip-horizontal</span> 可以使图标绕竖直轴翻转180度:</div>
+        <pre class='demo-code'>&lt;i class="ei-thumbs-o-up ei-flip-horizontal">&lt;/i></pre>
+        <div class='doc-text'>效果: 翻转前：<i class="ei-thumbs-o-up"></i> 翻转后：<i class="ei-thumbs-o-up ei-flip-horizontal"></i></div>
+        <br>
+        <div class='doc-text'>使用 <span class="red">ei-flip-vertical</span> 可以使图标绕水平轴翻转180度:</div>
+        <pre class='demo-code'>&lt;i class="ei-thumbs-o-up ei-flip-vertical">&lt;/i></pre>
+        <div class='doc-text'>效果: 翻转前：<i class="ei-thumbs-o-up"></i> 翻转后：<i class="ei-thumbs-o-up ei-flip-vertical"></i></div>
+
+        <div class="doc-title-s">3. 旋转</div>
+        <div class='doc-text'>使用 <span class="red">ei-rotate-90</span>、<span class="red">ei-rotate-180</span>、<span class="red">ei-rotate-270</span> 分别可以使图标按顺时针方向旋转 90、180、270度:</div>
+        <pre class='demo-code'>&lt;i class="ei-smile">&lt;/i>
+&lt;i class="ei-smile ei-rotate-90">&lt;/i>
+&lt;i class="ei-smile ei-rotate-180">&lt;/i>
+&lt;i class="ei-smile ei-rotate-270">&lt;/i></pre>
+        <div class='doc-text'>效果：
+            <i class="ei-smile"></i>
+            <i class="ei-smile ei-rotate-90"></i>
+            <i class="ei-smile ei-rotate-180"></i>
+            <i class="ei-smile ei-rotate-270"></i>
+        </div>
     </div>
     <div id='sizeBlock'>
         <div class="doc-title">选择尺寸</div>
@@ -133,7 +178,7 @@
             <a href='https://www.theajack.com' target="blank"><span class="link d-hide">theajack.com</span></a>
         </div>
         <div id="copyright">
-            &copy; <span id="_year">2019</span> TheaJack All rights
+            &copy; <span id="_year">2020</span> TheaJack All rights
             reserved
         </div>
     </div>

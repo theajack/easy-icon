@@ -7,6 +7,7 @@
     margin-top: 5px;
     overflow-x: auto;
     color: #fff;
+    line-height: 25px;
 }
 #spinBlock,#sizeBlock,#useBlock{
     padding: 15px;
@@ -20,10 +21,14 @@
     font-size: 25px;
     font-weight: bold;
 }
-.doc-title-s{
+.doc-title-s,.doc-title-ss{
     color: #222;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
+    margin-bottom: 10px;
+}
+.doc-title-ss{
+    font-size: 20px;
 }
 .doc-text{
     color: #222;

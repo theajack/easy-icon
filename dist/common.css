@@ -117,7 +117,7 @@ a .ei-spin {
 	-o-transform: rotate(90deg);
 	transform: rotate(90deg);
 }
-
+/* 顺时针旋转180度 */
 .ei-rotate-180:before {
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 	-webkit-transform: rotate(180deg);
@@ -125,7 +125,7 @@ a .ei-spin {
 	-o-transform: rotate(180deg);
 	transform: rotate(180deg);
 }
-
+/* 顺时针旋转270度 */
 .ei-rotate-270:before {
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 	-webkit-transform: rotate(270deg);
@@ -133,21 +133,21 @@ a .ei-spin {
 	-o-transform: rotate(270deg);
 	transform: rotate(270deg);
 }
-
+/* 竖直翻转 */
 .ei-flip-horizontal:before {
 	-webkit-transform: scale(-1,1);
 	-ms-transform: scale(-1,1);
 	-o-transform: scale(-1,1);
 	transform: scale(-1,1);
 }
-
+/* 水平翻转 */
 .ei-flip-vertical:before {
 	-webkit-transform: scale(1,-1);
 	-ms-transform: scale(1,-1);
 	-o-transform: scale(1,-1);
 	transform: scale(1,-1);
 }
-
+/* 顺时针旋转90度 */
 .ei-rotate-90:before,.ei-rotate-180:before,.ei-rotate-270:before,.ei-flip-horizontal:before,.ei-flip-vertical:before {
 	display: inline-block;
 }
