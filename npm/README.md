@@ -201,4 +201,26 @@ The size class performs the same for the five modules
 
 Of course, you can use css to customize any style.
 
+#### 3.3 Flip
 
+Use `ei-flip-horizontal` to flip the icon 180 degrees around the vertical axis
+
+```html
+<i class="ei-thumbs-o-up ei-flip-horizontal"></i>
+```
+
+Use `ei-flip-horizontal` to flip the icon 180 degrees around the vertical axis
+
+```html
+<i class="ei-thumbs-o-up ei-flip-vertical"></i>
+```
+
+#### 3.4 Rotate
+
+Use `ei-rotate-90`,` ei-rotate-180`, `ei-rotate-270` to rotate the icon clockwise 90, 180, 270 degrees respectively
+
+```html
+<i class="ei-smile ei-rotate-90"></i>
+<i class="ei-smile ei-rotate-180"></i>
+<i class="ei-smile ei-rotate-270"></i>
+```

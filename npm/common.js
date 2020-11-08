@@ -9,8 +9,8 @@ module.exports = function(ID, css){
             style = window.document.createElement('style');
             style.setAttribute('id',ID);
             style.type = 'text/css';
-            window.document.head.appendChild(style)
             style.innerHTML = css;
+            window.document.head.appendChild(style)
         }
     }
     return {};

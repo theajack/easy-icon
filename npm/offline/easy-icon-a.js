@@ -1,4 +1,4 @@
-var css = require('./easy-icon-a.js');
+var css = require('./easy-icon-a.css.js');
 var common = require('../common.js')
 const ID = 'easyIconAStyleO';
 

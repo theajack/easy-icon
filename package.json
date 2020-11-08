@@ -1,12 +1,13 @@
 {
   "name": "easy-icon",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "![Easy-ICON](https://github.com/theajack/easy-icon/blob/master/assets/images/logo-black.png?raw=true)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node src/minify-css.js",
-    "publish": "npm publish npm"
+    "publish": "npm publish npm",
+    "dev": "webpack-dev-server --open --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,13 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-minify-css": "^1.2.4",
-    "gulp-rename": "^2.0.0"
-  }
+    "gulp-rename": "^2.0.0",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "dependencies": {}
 }
