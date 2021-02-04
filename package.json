@@ -1,6 +1,6 @@
 {
   "name": "easy-icon",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "![Easy-ICON](https://github.com/theajack/easy-icon/blob/master/assets/images/logo-black.png?raw=true)",
   "main": "index.js",
   "scripts": {

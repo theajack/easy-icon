@@ -1,6 +1,6 @@
 {
     "name": "easy-icon",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "A beautiful, easy-to-use web font icon library",
     "main": "index.js",
     "scripts": {},
