@@ -121,10 +121,26 @@ import 'easy-icon/easy-icon-t.js';
 import 'easy-icon/easy-icon-l.js';
 ```
 
+You can also directly import css files (need to be used with tools such as css-loader)
+
+```js
+import 'easy-icon/css/easy-icon.css';
+import 'easy-icon/css/easy-icon-a.css';
+import 'easy-icon/css/easy-icon-f.css';
+import 'easy-icon/css/easy-icon-t.css';
+import 'easy-icon/css/easy-icon-l.css';
+```
+
 Or use a collection version
 
 ```js
 import 'easy-icon/easy-icon-all.js';
+```
+
+Css file
+
+```js
+import 'easy-icon/css/easy-icon-all.css';
 ```
 
 ##### 2.2.2 Offline Mode
@@ -137,10 +153,26 @@ import 'easy-icon/offline/easy-icon-t.js';
 import 'easy-icon/offline/easy-icon-l.js';
 ```
 
+You can also directly import css files (need to be used with tools such as css-loader)
+
+```js
+import 'easy-icon/offline/css/easy-icon.css';
+import 'easy-icon/offline/css/easy-icon-a.css';
+import 'easy-icon/offline/css/easy-icon-f.css';
+import 'easy-icon/offline/css/easy-icon-t.css';
+import 'easy-icon/offline/css/easy-icon-l.css';
+```
+
 Or use a collection version
 
 ```js
 import 'easy-icon/offline/easy-icon-all.js';
+```
+
+Css file
+
+```js
+import 'easy-icon/offline/css/easy-icon-all.css';
 ```
 
 #### 2.3 Useage

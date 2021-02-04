@@ -121,10 +121,26 @@ import 'easy-icon/easy-icon-t.js';
 import 'easy-icon/easy-icon-l.js';
 ```
 
+也可以直接引入 css 文件 (需搭配css-loader等工具使用)
+
+```js
+import 'easy-icon/css/easy-icon.css';
+import 'easy-icon/css/easy-icon-a.css';
+import 'easy-icon/css/easy-icon-f.css';
+import 'easy-icon/css/easy-icon-t.css';
+import 'easy-icon/css/easy-icon-l.css';
+```
+
 或者使用集合版本
 
 ```js
 import 'easy-icon/easy-icon-all.js';
+```
+
+引用css文件
+
+```js
+import 'easy-icon/css/easy-icon-all.css';
 ```
 
 ##### 2.2.2 离线模式
@@ -137,10 +153,26 @@ import 'easy-icon/offline/easy-icon-t.js';
 import 'easy-icon/offline/easy-icon-l.js';
 ```
 
+也可以直接引入 css 文件 (需搭配css-loader等工具使用)
+
+```js
+import 'easy-icon/offline/css/easy-icon.css';
+import 'easy-icon/offline/css/easy-icon-a.css';
+import 'easy-icon/offline/css/easy-icon-f.css';
+import 'easy-icon/offline/css/easy-icon-t.css';
+import 'easy-icon/offline/css/easy-icon-l.css';
+```
+
 或者使用集合版本
 
 ```js
 import 'easy-icon/offline/easy-icon-all.js';
+```
+
+引用css文件
+
+```js
+import 'easy-icon/offline/css/easy-icon-all.css';
 ```
 
 #### 2.3 使用
