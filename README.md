@@ -180,7 +180,7 @@ import 'easy-icon/offline/css/easy-icon-all.css';
 It's very easy to use, you just need to insert the tag anywhere:
 
 ```html
-<i class="ei-spmile"></i>
+<i class="ei-smile"></i>
 ```
 
 It should be noted that the prefixes corresponding to the five modules are different, respectively
